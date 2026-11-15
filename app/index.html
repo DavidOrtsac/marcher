@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>MARCHER</title>
+<meta name="description" content="MARCHER: Mars Mission Activity, Route, Consumables, Hazard and EVA Resource planner. Plan a walk on Mars at Curiosity's boxwork on Mount Sharp, Gale crater, then walk it. Built on NASA HiRISE, CRISM, THEMIS, Curiosity and DONKI data.">
+<meta name="author" content="David Castro, Transcendiant Labs">
+<meta name="ai-assistance" content="Code and data processing were written with Claude (Anthropic) as an AI assistant. The game's lines were written with Gemini 4 Argon (Google) and its two voices are synthetic, made with ElevenLabs text to speech. No AI-generated images or video: all imagery is NASA data rendered by the app.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500;600&family=Rajdhani:wght@400;500;600;700&display=swap">
+<link rel="stylesheet" href="css/app.css">
+<script>
+// Anything that stops the app before it is up is shown on the page, never left as an endless loading bar.
+window.__errs = [];
+window.__fail = function (msg) {
+  if (window.__booted || window.__failed) return;
+  window.__failed = true;
+  var f = document.getElementById('fail');
+  if (!f) return;
+  f.querySelector('.msg').textContent = msg;
+  f.hidden = false;
+};
+addEventListener('error', function (e) {
+  __errs.push(String(e.message) + ' @' + (e.filename || '').split('/').pop() + ':' + e.lineno);
+  __fail('MARCHER could not start. ' + String(e.message || '').replace(/^Uncaught (Error: )?/, ''));
+});
+addEventListener('unhandledrejection', function (e) {
+  var r = e.reason;
+  __errs.push('rejection: ' + String(r && (r.stack || r.message) || r));
+  __fail('MARCHER could not start: ' + String(r && r.message || r) + '.');
+});
+setTimeout(function () { var h = document.querySelector('#loading .hint'); if (h && !window.__booted) h.classList.add('on'); }, 5000);
+</script>
+</head>
+<body>
+<canvas id="gl"></canvas>
+<div id="ui"></div>
+<div id="loading"><div class="word">MARCHER</div><div class="by">by Transcendiant Labs</div><div class="bar"><i></i></div><div class="hint">Loading the Mount Sharp terrain</div><div class="for"><span>for</span><img src="img/space_apps_logo.svg" alt="NASA Space Apps Challenge" width="561" height="221"></div></div>
+<div id="fail" hidden><div class="word">MARCHER</div><p class="msg"></p><button onclick="location.reload()">RELOAD</button></div>
+<script type="module" src="js/main.js" onerror="__fail('The app code did not load. Reload once the connection is back.')"></script>
+</body>
+</html>

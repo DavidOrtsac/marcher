@@ -1,0 +1,124 @@
+{
+  "title_tagline": "Six stops on Mount Sharp",
+  "menu_mission": "Step Outside",
+  "menu_control": "Mission Control",
+  "open_card": [
+    "Gale Crater, Mars",
+    "Mars day {sol}, {start_clock}",
+    "Lower Mount Sharp"
+  ],
+  "hint_key": "Hold Space to walk",
+  "hint_touch": "Hold button to walk",
+  "button_walk": "Walk",
+  "button_sample": "Sample",
+  "button_confirm": "Confirm",
+  "intro": [
+    {"who": "rover", "text": "Radio check. I have you right outside the rover at Altadena."},
+    {"who": "rover", "text": "See these intersecting ridges? Boxwork. Seen from orbit, built by old water."},
+    {"who": "rover", "text": "Six samples today to test how groundwater hardened them over the hollows."},
+    {"who": "rover", "text": "Follow the pale line on the ground. It keeps you off the steep slopes."}
+  ],
+  "leg1": [
+    {"who": "rover", "text": "Curiosity spent {curiosity_sols} Mars days driving this loop. You have {hours}."},
+    {"who": "rover", "text": "You are about to duck behind a ridge. I will lose line of sight for a bit."}
+  ],
+  "radio_lost": [
+    {"who": "rover", "text": "See you on the other..."},
+    {"who": "suit", "text": "Rover signal blocked by terrain. Expected. Route continues ahead."}
+  ],
+  "site1_arrive": [
+    {"who": "suit", "text": "Volcán Peña Blanca. Exposed ridge wall showing three distinct rock layers."},
+    {"who": "suit", "text": "Task: sample bottom to top. Radio line of sight is {radio_near} metres away."}
+  ],
+  "site1_done": [
+    {"who": "suit", "text": "Sample 1 secured. {dwell} minutes elapsed. Proceed to Salar de Agua Amara."}
+  ],
+  "leg2": [],
+  "radio_back": [
+    {"who": "rover", "text": "And you are back on my screen. Right on schedule."},
+    {"who": "rover", "text": "Three layers in the bag. Keep following the line down to Salar de Agua Amara."}
+  ],
+  "site2_arrive": [
+    {"who": "rover", "text": "Look close at the rock here. Delicate branching shapes left by groundwater."},
+    {"who": "rover", "text": "Photograph them in place, then take your core right beside them, not through."}
+  ],
+  "site2_done": [
+    {"who": "rover", "text": "Clean core. Glad we did not break the branches."}
+  ],
+  "leg3": [
+    {"who": "rover", "text": "Short hop to the Río Frío wall, just 79 metres."}
+  ],
+  "site3_arrive": [
+    {"who": "rover", "text": "This wall is packed with pea-sized round lumps, plus a mineral vein in a crack."},
+    {"who": "rover", "text": "Sample both the nodules and the vein so we can compare their chemistry."}
+  ],
+  "site3_done": [
+    {"who": "rover", "text": "That is three. Halfway through the list."}
+  ],
+  "leg4": [
+    {"who": "rover", "text": "Next is the hollow at Monte Grande. Notice how the ground flattens out."}
+  ],
+  "drill_alarm": [
+    {"who": "suit", "text": "ALERT. Solar storm warning. Surface radiation rising."},
+    {"who": "suit", "text": "Immediate shelter required at the crew rover."}
+  ],
+  "drill_explain": [
+    {"who": "suit", "text": "In 2017 a storm doubled radiation in Gale crater. The rover is your shelter."},
+    {"who": "suit", "text": "Red line shows fastest safe walk back. {drill_min} minutes from this point."},
+    {"who": "suit", "text": "Face the escape route and hold to confirm visual."}
+  ],
+  "drill_clear": [
+    {"who": "suit", "text": "Drill complete. Escape route confirmed. Resuming planned walk."},
+    {"who": "rover", "text": "Good reaction time. You are never more than {walkback_max} minutes from me on this loop."}
+  ],
+  "site4_arrive": [
+    {"who": "rover", "text": "Monte Grande hollow. Softer rock wore away here, leaving polygon blocks."},
+    {"who": "rover", "text": "Take a core from the floor. This is the hollow half of our main test."}
+  ],
+  "site4_done": [
+    {"who": "rover", "text": "Hollow sample bagged. Now we need the ridge right beside it."}
+  ],
+  "leg5": [
+    {"who": "rover", "text": "Up onto Nevado Sajama ridge. Only 53 metres."}
+  ],
+  "site5_arrive": [
+    {"who": "rover", "text": "Curiosity drilled this ridge and found clay, and drilled the hollow 10 metres north."},
+    {"who": "rover", "text": "Take the matching ridge sample here."}
+  ],
+  "site5_done": [
+    {"who": "rover", "text": "Now we have both halves: soft hollow and cemented ridge."},
+    {"who": "rover", "text": "One stop left before we wrap it up."}
+  ],
+  "leg6": [
+    {"who": "rover", "text": "Heading to Timboy Chaco on the eastern edge of the boxwork."}
+  ],
+  "site6_arrive": [
+    {"who": "rover", "text": "Look at that vertical rock face, covered in little pits."},
+    {"who": "rover", "text": "Last sample of the day. Take your time."}
+  ],
+  "site6_done": [
+    {"who": "rover", "text": "All six samples collected. Come on home."}
+  ],
+  "home": [
+    {"who": "rover", "text": "Half a kilometre back to Altadena. Easy grade the whole way."},
+    {"who": "rover", "text": "Every ridge you crossed was hardened by water running through ancient cracks."},
+    {"who": "rover", "text": "I have the hatch prepped. See you in a few minutes."}
+  ],
+  "arrive": [
+    {"who": "rover", "text": "Welcome back. {hours} outside and {daylight} of daylight still in the bank."},
+    {"who": "rover", "text": "Bring those rocks inside."}
+  ],
+  "sample_toast": "Sample {n} of {total} secured",
+  "photo_caption": "Taken here by Curiosity ({camera}, Mars day {photo_sol})",
+  "end_heading": "Walk Complete",
+  "end_labels": {
+    "samples": "Samples",
+    "distance": "Walked",
+    "outside": "Time outside",
+    "daylight": "Daylight left"
+  },
+  "end_line": "Every step stayed inside daylight, gentle slopes, and a 17-minute walk from shelter.",
+  "end_control": "Open Mission Control",
+  "end_replay": "Walk Again",
+  "notes": "In radio_lost, cut the first line ('See you on the other...') abruptly with a short burst of static if you have audio, then wait one beat before the suit speaks. On leg5, the walk is only 53m so trigger the line immediately on leaving site 4. On home (500m), space the three lines out at roughly 15%, 50%, and 85% of the distance back."
+}

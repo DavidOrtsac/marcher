@@ -1,0 +1,22 @@
+4s out_chars=36
+4s out_chars=155
+5s out_chars=261
+5s out_chars=404
+6s out_chars=526
+6s out_chars=614
+6s out_chars=754
+7s out_chars=883
+7s out_chars=995
+7s out_chars=1092
+8s out_chars=1179
+8s out_chars=1334
+8s out_chars=1444
+9s out_chars=1547
+9s out_chars=1625
+9s out_chars=1764
+10s out_chars=1900
+11s out_chars=2025
+11s out_chars=2042
+finish STOP
+11s out_chars=2042
+DONE seconds=11 usage={"promptTokenCount": 4477, "candidatesTokenCount": 484, "totalTokenCount": 4961, "trafficType": "ON_DEMAND", "promptTokensDetails": [{"modality": "TEXT", "tokenCount": 4477}], "candidatesTokensDetails": [{"modality": "TEXT", "tokenCount": 484}]}

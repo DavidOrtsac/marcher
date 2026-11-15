@@ -1,0 +1,300 @@
+{
+  "title_tagline": "Six stops on Mount Sharp",
+  "menu_mission": "Step Outside",
+  "menu_control": "Mission Control",
+  "open_card": [
+    "Gale Crater, Mars",
+    "Mars day {sol}, {start_clock}",
+    "Lower Mount Sharp"
+  ],
+  "hint_key": "Hold Space to walk",
+  "hint_touch": "Hold button to walk",
+  "button_walk": "Walk",
+  "button_sample": "Sample",
+  "button_confirm": "Confirm",
+  "intro": [
+    {
+      "who": "rover",
+      "say": "Radio check. I have you right outside the rover at Altadena.",
+      "show": "Parked at Altadena, Curiosity's first boxwork drill site."
+    },
+    {
+      "who": "rover",
+      "say": "This web of ridges is boxwork, where groundwater once hardened the rock through cracks.",
+      "show": "Boxwork ridges: rock hardened by ancient groundwater."
+    },
+    {
+      "who": "rover",
+      "say": "Six stops today to sample the ridges and the hollows worn away between them.",
+      "show": "Goal: sample 6 sites across ridges and hollows, then return."
+    },
+    {
+      "who": "rover",
+      "say": "Follow the pale line. It keeps you off steep ground.",
+      "show": "Follow the pale route line."
+    }
+  ],
+  "leg1": [
+    {
+      "who": "rover",
+      "say": "Curiosity took {curiosity_sols} Mars days to work these six spots. We have {hours}.",
+      "show": "Curiosity rover: {curiosity_sols} Mars days here. On foot: {hours}."
+    },
+    {
+      "who": "rover",
+      "say": "You are about to walk behind a ridge. Radio will drop.",
+      "show": ""
+    }
+  ],
+  "radio_lost": [
+    {
+      "who": "rover",
+      "say": "See you on the other...",
+      "show": "Rover signal lost..."
+    },
+    {
+      "who": "suit",
+      "say": "Line of sight to rover blocked by terrain. Planned gap. Suit audio active.",
+      "show": "TERRAIN BLOCKING RADIO. EXPECTED. SUIT GUIDANCE ACTIVE."
+    }
+  ],
+  "site1_arrive": [
+    {
+      "who": "suit",
+      "say": "Stop one, Volcán Peña Blanca. This ridge wall exposes three layers.",
+      "show": "SITE 1: RIDGE WALL WITH THREE ROCK LAYERS."
+    },
+    {
+      "who": "suit",
+      "say": "Sample from bottom to top. Radio returns {radio_near} metres ahead.",
+      "show": "TASK: SAMPLE LAYERS BOTTOM TO TOP. (RADIO IN {radio_near} M)"
+    }
+  ],
+  "site1_done": [
+    {
+      "who": "suit",
+      "say": "Sample logged. {dwell} minutes elapsed. Proceed to Salar de Agua Amara.",
+      "show": "TASK COMPLETE ({dwell} MIN). CONTINUE ALONG ROUTE."
+    }
+  ],
+  "leg2": [],
+  "radio_back": [
+    {
+      "who": "rover",
+      "say": "And I have you back. Clear line of sight to the rover again.",
+      "show": "Line of sight restored. Rover radio online."
+    }
+  ],
+  "site2_arrive": [
+    {
+      "who": "rover",
+      "say": "Look at those delicate branching shapes in the rock. Groundwater work again.",
+      "show": "Delicate branching rock structures, likely formed by groundwater."
+    },
+    {
+      "who": "rover",
+      "say": "Photograph them in place, then drill beside them, not through them.",
+      "show": "Task: photograph in place, then take a core beside them."
+    }
+  ],
+  "site2_done": [
+    {
+      "who": "rover",
+      "say": "Core is in. That took {dwell} minutes.",
+      "show": "Core stowed ({dwell} min)."
+    }
+  ],
+  "leg3": [
+    {
+      "who": "rover",
+      "say": "Short walk to the Río Frío wall. Just seventy-nine metres.",
+      "show": ""
+    }
+  ],
+  "site3_arrive": [
+    {
+      "who": "rover",
+      "say": "This ridge wall has pea-sized round lumps, and a mineral band filling a crack.",
+      "show": "Pea-sized nodules and a mineral-filled crack (vein)."
+    },
+    {
+      "who": "rover",
+      "say": "Sample both the nodules and the vein so we can compare their chemistry.",
+      "show": "Task: sample both nodules and vein to compare chemistry."
+    }
+  ],
+  "site3_done": [
+    {
+      "who": "rover",
+      "say": "Three down, three to go. Head for Monte Grande hollow.",
+      "show": "Halfway mark ({dwell} min)."
+    }
+  ],
+  "leg4": [
+    {
+      "who": "rover",
+      "say": "Next stop is down in a hollow between the ridges.",
+      "show": ""
+    }
+  ],
+  "drill_alarm": [
+    {
+      "who": "suit",
+      "say": "Warning. Solar storm detected. Surface radiation rising.",
+      "show": "SOLAR STORM WARNING. RADIATION RISING."
+    },
+    {
+      "who": "suit",
+      "say": "Return to rover shelter immediately.",
+      "show": "SHELTER REQUIRED AT ROVER."
+    }
+  ],
+  "drill_explain": [
+    {
+      "who": "suit",
+      "say": "A twenty seventeen storm here doubled surface radiation. The rover is the only shelter.",
+      "show": "2017 GALE CRATER STORM DOUBLED RADIATION. ROVER IS ONLY SHELTER."
+    },
+    {
+      "who": "suit",
+      "say": "Red line marks fastest safe walk back. {drill_min} minutes from here.",
+      "show": "RED LINE: FASTEST SAFE RETURN ({drill_min} MIN WALK)."
+    },
+    {
+      "who": "suit",
+      "say": "Hold to confirm escape route.",
+      "show": "HOLD TO CONFIRM ESCAPE ROUTE."
+    }
+  ],
+  "drill_clear": [
+    {
+      "who": "suit",
+      "say": "Drill complete. Escape route confirmed. Resuming walk.",
+      "show": "DRILL COMPLETE. RESUMING PLANNED WALK."
+    },
+    {
+      "who": "rover",
+      "say": "Good check. This route keeps you within a {walkback_max} minute walk of me at all times.",
+      "show": "Max walk back to shelter on this route: {walkback_max} min."
+    }
+  ],
+  "site4_arrive": [
+    {
+      "who": "rover",
+      "say": "Monte Grande hollow. Bare bedrock on the floor, broken into polygon blocks.",
+      "show": "Hollow floor: bare bedrock broken into polygon blocks."
+    },
+    {
+      "who": "rover",
+      "say": "Take the hollow sample here. That gives us the first half of our comparison.",
+      "show": "Task: sample the hollow (half 1 of ridge-hollow comparison)."
+    }
+  ],
+  "site4_done": [
+    {
+      "who": "rover",
+      "say": "Hollow sample bagged. Now let us climb the ridge right next to it.",
+      "show": "Hollow half collected ({dwell} min). Next: matching ridge."
+    }
+  ],
+  "leg5": [
+    {
+      "who": "rover",
+      "say": "Fifty-three metres up onto Nevado Sajama ridge.",
+      "show": ""
+    }
+  ],
+  "site5_arrive": [
+    {
+      "who": "rover",
+      "say": "Curiosity found clay in this ridge, and also drilled the hollow ten metres north.",
+      "show": "Curiosity found clay minerals here and drilled the hollow 10 m north."
+    },
+    {
+      "who": "rover",
+      "say": "Take the matching ridge sample right on top.",
+      "show": "Task: take the matching ridge sample (half 2 of comparison)."
+    }
+  ],
+  "site5_done": [
+    {
+      "who": "rover",
+      "say": "Now we hold both halves: the worn hollow and the cemented ridge.",
+      "show": "Both halves secured: hollow and ridge ({dwell} min)."
+    },
+    {
+      "who": "rover",
+      "say": "One last stop at the eastern edge.",
+      "show": ""
+    }
+  ],
+  "leg6": [
+    {
+      "who": "rover",
+      "say": "A hundred and twelve metres to Timboy Chaco.",
+      "show": ""
+    }
+  ],
+  "site6_arrive": [
+    {
+      "who": "rover",
+      "say": "Timboy Chaco, eastern edge of the boxwork. Vertical rock covered in pits.",
+      "show": "Eastern edge of the boxwork: vertical rock face covered in pits."
+    },
+    {
+      "who": "rover",
+      "say": "Grab the final sample and we are done.",
+      "show": "Task: collect final sample."
+    }
+  ],
+  "site6_done": [
+    {
+      "who": "rover",
+      "say": "All six in the bag. Time to walk home.",
+      "show": "All 6 samples collected ({dwell} min). Return to rover."
+    }
+  ],
+  "home": [
+    {
+      "who": "rover",
+      "say": "Five hundred metres back to Altadena. The return leg was built in from the start.",
+      "show": "Return leg to Altadena: 500 m."
+    },
+    {
+      "who": "rover",
+      "say": "Curiosity was the only thing that ever touched these rocks before today.",
+      "show": "Only the Curiosity rover has been here before."
+    },
+    {
+      "who": "rover",
+      "say": "I have you in sight. Come on in.",
+      "show": ""
+    }
+  ],
+  "arrive": [
+    {
+      "who": "rover",
+      "say": "Welcome back. About {hours} outside, with {daylight} of daylight still left.",
+      "show": "Walk complete. {hours} outside, {daylight} of daylight left to spare."
+    }
+  ],
+  "end_say": [
+    {
+      "who": "rover",
+      "say": "Six samples, one point four kilometres, and plenty of daylight in the margin."
+    }
+  ],
+  "sample_toast": "Sample {n} of {total} secured",
+  "photo_caption": "Taken here by Curiosity ({camera}, Mars day {photo_sol})",
+  "end_heading": "Walk Complete",
+  "end_labels": {
+    "samples": "Samples",
+    "distance": "Walked",
+    "outside": "Time outside",
+    "daylight": "Daylight left"
+  },
+  "end_line": "Every step stayed inside daylight, off steep ground, and within 17 minutes of shelter.",
+  "end_control": "Open Mission Control",
+  "end_replay": "Walk Again",
+  "notes": "Channel design: 'say' is conversational and paced for breath; 'show' is compressed field-log style (and ALL CAPS when the suit computer is on screen so the machine voice is visually obvious even without audio). On short legs (leg3, leg4, leg5, leg6) 'show' is empty because the waypoint HUD already carries the distance and destination, avoiding screen clutter while walking. In leg1, trigger item 2 around 5s so it finishes right as the radio drops at 9s."
+}

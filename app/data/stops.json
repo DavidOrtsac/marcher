@@ -1,0 +1,164 @@
+{
+ "eva": {
+  "title": "Ridge and hollow transect",
+  "goal": "Sample a boxwork ridge and the hollow beside it to test how groundwater cemented the ridges."
+ },
+ "stops": [
+  {
+   "id": "s0",
+   "name": "Altadena",
+   "target": "Altadena",
+   "kind": "rover",
+   "sol": 4564,
+   "rover_sol": 4560,
+   "site": 116,
+   "drive": 1944,
+   "easting": 8143367.862,
+   "northing": -284509.493,
+   "elev": -3647.181,
+   "what": "Drilled over the weekend; hole imaged by Mastcam sol 4564. First boxwork-unit drill; CheMin found phyllosilicates largely absent from surrounding Layered Sulfate unit (GSA 2025).",
+   "feature": "drill hole #43 (edge/transition of boxwork unit)",
+   "task": "Crew rover parks at Curiosity's first boxwork drill site. Suit checks, then walk south.",
+   "dwellMin": 0,
+   "sources": [
+    "https://science.nasa.gov/blog/sol-4564-front-hazard-avoidance-camera-front-hazcam/",
+    "https://science.nasa.gov/blog/sols-4561-4562-prepping-to-drill-at-altadena/",
+    "https://science.nasa.gov/blog/curiosity-blog-sols-4568-4569-a-close-look-at-the-altadena-drill-hole-and-tailings/",
+    "https://gsameetings.secure-platform.com/connects25/solicitations/103002/sessiongallery/schedule/items/95386/application/10634",
+    "https://www.jpl.nasa.gov/news/nasas-curiosity-mars-rover-starts-unpacking-boxwork-formations/"
+   ]
+  },
+  {
+   "id": "s1",
+   "name": "Volcán Peña Blanca",
+   "target": "Volcan Pena Blanca",
+   "kind": "science",
+   "sol": 4593,
+   "rover_sol": 4591,
+   "site": 117,
+   "drive": 1122,
+   "easting": 8143184.61,
+   "northing": -284667.312,
+   "elev": -3644.62,
+   "what": "Imaged from ~10 m on sol 4591; contact science on upper (Parinacota, DRT+APXS) and middle (Wila Willki) outcrop; LIBS Pichu Pichu, Tacume. Phase 2 stop.",
+   "feature": "prominent raised ridge with side + top view, at least three layers",
+   "task": "Raised ridge with at least three layers in its wall: sample each layer from bottom to top.",
+   "dwellMin": 35,
+   "sources": [
+    "https://science.nasa.gov/blog/curiosity-blog-sols-4593-4594-three-layers-and-a-lot-of-structure-at-volcan-pena-blanca/",
+    "https://science.nasa.gov/blog/curiosity-blog-sols-4580-4581-something-in-the-air/",
+    "https://science.nasa.gov/blog/curiosity-blog-sols-4589-4592-setting-up-to-explore-volcan-pena-blanca/",
+    "https://science.nasa.gov/blog/curiosity-blog-sols-4804-4811-kicking-off-the-final-phase-of-boxwork-exploration/"
+   ]
+  },
+  {
+   "id": "s2",
+   "name": "Salar de Agua Amara",
+   "target": "Salar de Agua Amara",
+   "kind": "science",
+   "sol": 4618,
+   "rover_sol": 4618,
+   "site": 118,
+   "drive": 198,
+   "easting": 8143130.43,
+   "northing": -284844.267,
+   "elev": -3620.486,
+   "what": "MAHLI.",
+   "feature": "delicate branching structures 'likely made by groundwater'",
+   "task": "Delicate branching structures likely made by groundwater: image in place, then core beside them.",
+   "dwellMin": 30,
+   "sources": [
+    "https://science.nasa.gov/blog/curiosity-blog-sols-4618-4619-the-boxwork-structures-continue-to-call-to-us/"
+   ]
+  },
+  {
+   "id": "s3",
+   "name": "Río Frío wall",
+   "target": "Minimini / El Tapado",
+   "kind": "science",
+   "sol": 4636,
+   "rover_sol": 4636,
+   "site": 118,
+   "drive": 1752,
+   "easting": 8143118.71,
+   "northing": -284906.1,
+   "elev": -3607.128,
+   "what": "MAHLI pea-sized nodule image on sol 4636 (PIA26697).",
+   "feature": "nodule-filled target (APXS) and a vein (LIBS) at the Rio Frio ridge wall",
+   "task": "Nodule-filled ridge wall and a vein: compare nodule and vein chemistry.",
+   "dwellMin": 35,
+   "sources": [
+    "https://science.nasa.gov/blog/curiosity-blog-sols-4636-4637-up-against-a-wall/",
+    "https://www.jpl.nasa.gov/images/pia26697-curiosity-studies-nodules-on-boxwork-formations/"
+   ]
+  },
+  {
+   "id": "s4",
+   "name": "Monte Grande hollow",
+   "target": "Monte Grande",
+   "kind": "science",
+   "sol": 4673,
+   "rover_sol": 4673,
+   "site": 119,
+   "drive": 846,
+   "easting": 8143250.985,
+   "northing": -285035.19,
+   "elev": -3606.57,
+   "what": "Hollow with exposed bedrock, studied from sol 4673. Revisited sols 4743-4749 for the polygon-patterned blocks.",
+   "feature": "large hollow with exposed bedrock and polygon-patterned blocks",
+   "task": "Hollow floor with exposed bedrock and polygon blocks: collect the hollow sample.",
+   "dwellMin": 40,
+   "sources": [
+    "https://science.nasa.gov/blog/curiosity-blog-sols-4675-4681-deciding-where-to-dig-into-the-boxworks/",
+    "https://science.nasa.gov/blog/curiosity-blog-sols-4682-4688-seven-mars-years/",
+    "https://science.nasa.gov/blog/curiosity-blog-sols-4689-4694-drill-in-the-boxwork-unit-is-go/",
+    "https://science.nasa.gov/blog/curiosity-blog-sols-4743-4749-polygons-in-the-hollow/"
+   ]
+  },
+  {
+   "id": "s5",
+   "name": "Nevado Sajama ridge",
+   "target": "Nevado Sajama",
+   "kind": "science",
+   "sol": 4718,
+   "rover_sol": 4711,
+   "site": 120,
+   "drive": 82,
+   "easting": 8143217.465,
+   "northing": -284993.193,
+   "elev": -3607.722,
+   "what": "'The drill activity itself completed on Sol 4718.' Ridge sample: clay minerals (JPL). Site of 1.5-gigapixel 360 deg panorama, sols 4714-4741.",
+   "feature": "drill hole #45 on the ridge top. The hollow drill hole, Valle de la Luna, is about 10 m to the north.",
+   "task": "Ridge top Curiosity drilled, 10 m from its hollow drill hole Valle de la Luna: collect the matching ridge sample.",
+   "dwellMin": 30,
+   "sources": [
+    "https://science.nasa.gov/blog/curiosity-blog-sols-4716-4722-drilling-success-at-nevado-sajama/",
+    "https://science.nasa.gov/blog/curiosity-blog-sols-4709-4715-drilling-high-and-low-in-the-boxwork-unit/",
+    "https://science.nasa.gov/blog/curiosity-blog-sols-4723-4730-digging-into-nevado-sajama/",
+    "https://science.nasa.gov/blog/curiosity-blog-sols-4731-4742-finishing-up-at-nevado-sajama/",
+    "https://www.jpl.nasa.gov/images/pia26696-curiosity-captures-a-360-degree-view-at-nevado-sajama/",
+    "https://www.jpl.nasa.gov/news/nasas-curiosity-rover-sees-martian-spiderwebs-up-close/"
+   ]
+  },
+  {
+   "id": "s6",
+   "name": "Timboy Chaco",
+   "target": "Timboy Chaco",
+   "kind": "science",
+   "sol": 4827,
+   "rover_sol": 4827,
+   "site": 120,
+   "drive": 2366,
+   "easting": 8143327.108,
+   "northing": -285000.633,
+   "elev": -3615.48,
+   "what": "MAHLI merge sol 4827.",
+   "feature": "pitted vertical rock face",
+   "task": "Pitted vertical rock face at the eastern edge of the boxwork.",
+   "dwellMin": 20,
+   "sources": [
+    "https://science.nasa.gov/blog/curiosity-blog-sols-4825-4831-exploring-the-borderlands/"
+   ]
+  }
+ ]
+}

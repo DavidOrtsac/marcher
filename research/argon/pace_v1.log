@@ -1,0 +1,15 @@
+10s out_chars=12
+10s out_chars=73
+11s out_chars=174
+11s out_chars=265
+11s out_chars=359
+12s out_chars=448
+12s out_chars=530
+12s out_chars=638
+13s out_chars=732
+13s out_chars=839
+14s out_chars=954
+14s out_chars=963
+finish STOP
+14s out_chars=963
+DONE seconds=14 usage={"promptTokenCount": 3893, "candidatesTokenCount": 263, "totalTokenCount": 4156, "trafficType": "ON_DEMAND", "promptTokensDetails": [{"modality": "TEXT", "tokenCount": 3893}], "candidatesTokensDetails": [{"modality": "TEXT", "tokenCount": 263}]}

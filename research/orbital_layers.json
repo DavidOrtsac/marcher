@@ -1,0 +1,205 @@
+{
+ "box": {
+  "projection": "Mars 2000 sphere equirectangular, R=3396190 m, center lon 0",
+  "x_m": [
+   8142400,
+   8145600
+  ],
+  "y_m": [
+   -286800,
+   -283600
+  ],
+  "lon": [
+   137.3666,
+   137.4206
+  ],
+  "lat": [
+   -4.8385,
+   -4.7845
+  ]
+ },
+ "verified_utc": "2026-11-14",
+ "layers": [
+  {
+   "id": "themis_ti_quant_30S120E",
+   "name": "THEMIS Thermal Inertia Mosaic Quantitative 30S120E 100mpp",
+   "author": "Robin Fergason (USGS Astrogeology / ASU MSFF / NASA MDAP)",
+   "published": "2014-05-30",
+   "page": "https://astrogeology.usgs.gov/search/map/themis_thermal_inertia_mosaic_quantitative_30s120e_100mpp",
+   "files": [
+    {
+     "fmt": "ISIS3 cube (Tile 128x128, 32-bit Real, LSB)",
+     "url": "https://asc-astropedia.s3.us-west-2.amazonaws.com/Mars/Odyssey/THEMIS-Global-Thermal-Inertia-Mosaic/Quantitative-32-Bit/THEMIS_TI_Mosaic_Quant_30S120E_100mpp.cub",
+     "http": 200,
+     "bytes": 2532510196,
+     "range_requests": true
+    },
+    {
+     "fmt": "GeoTIFF 32-bit",
+     "url": "https://asc-astropedia.s3.us-west-2.amazonaws.com/Mars/Odyssey/THEMIS-Global-Thermal-Inertia-Mosaic/Quantitative-32-Bit/ancillary/THEMIS_TI_Mosaic_Quant_30S120E_100mpp.tif",
+     "http": 200,
+     "bytes": 2613997398
+    },
+    {
+     "fmt": "TIFF world file",
+     "url": "https://astrogeology.usgs.gov/ckan/dataset/4675b8b1-1bbc-4c49-9764-3b06af465d6e/resource/2c858bf0-1e0b-4620-8401-6786d29d7e1a/download/themis_ti_mosaic_quant_30s120e_100mpp.tfw",
+     "http": 200,
+     "bytes": 91,
+     "content": [
+      100.0,
+      0.0,
+      0.0,
+      -100.0,
+      7112950.0,
+      -50.0
+     ]
+    },
+    {
+     "fmt": "GDAL aux.xml",
+     "url": "https://astrogeology.usgs.gov/ckan/dataset/4675b8b1-1bbc-4c49-9764-3b06af465d6e/resource/992a4c5c-5ff0-428f-be23-f54d7879b97f/download/themis_ti_mosaic_quant_30s120e_100mpp.cub.aux.xml",
+     "http": 200,
+     "bytes": 1822
+    }
+   ],
+   "units": "J m^-2 K^-1 s^-1/2",
+   "absolute_accuracy": "~20% (product page)",
+   "resolution_m": 100,
+   "projection": "ISIS3 SimpleCylindrical, CenterLongitude 0, EquatorialRadius 3396190 m used for x and y (Scale 592.74697523306 px/deg = R*pi/180/100), planetocentric, east-positive, lon domain -180..180. Same grid as the map; box edges fall exactly on pixel edges.",
+   "extent": {
+    "lat": [
+     -30,
+     0
+    ],
+    "lon": [
+     120,
+     180
+    ],
+    "lines": 17782,
+    "samples": 35565,
+    "UpperLeftCornerXY_m": [
+     7112900.0,
+     0.0
+    ]
+   },
+   "box_window": {
+    "cols": [
+     10295,
+     10327
+    ],
+    "rows": [
+     2836,
+     2868
+    ],
+    "single_tile": [
+     22,
+     80
+    ]
+   },
+   "box_stats_J_m2_K_s05": {
+    "n": 1024,
+    "nulls": 0,
+    "min": 255.9,
+    "max": 450.5,
+    "mean": 369.5,
+    "median": 372.55
+   },
+   "box_grid_file": "themis_ti_box_100m.json"
+  },
+  {
+   "id": "themis_ti_qual_30S120E",
+   "name": "THEMIS Thermal Inertia Mosaic Qualitative 30S120E 100mpp (8-bit)",
+   "page": "https://astrogeology.usgs.gov/search/map/themis_thermal_inertia_mosaic_qualitative_30s120e_100_mpp",
+   "files": [
+    {
+     "fmt": "ISIS3 cube 8-bit",
+     "url": "https://asc-astropedia.s3.us-west-2.amazonaws.com/Mars/Odyssey/THEMIS-Global-Thermal-Inertia-Mosaic/Qualitative-8-Bit/THEMIS_TI_Mosaic_Qual_30S120E_100mpp.cub",
+     "http": 200,
+     "bytes": 632821977
+    },
+    {
+     "fmt": "GeoTIFF 8-bit",
+     "url": "https://asc-astropedia.s3.us-west-2.amazonaws.com/Mars/Odyssey/THEMIS-Global-Thermal-Inertia-Mosaic/Qualitative-8-Bit/ancillary/THEMIS_TI_Mosaic_Qual_30S120E_100mpp.tif",
+     "http": 200,
+     "bytes": 655055381
+    }
+   ],
+   "note": "Stretched for display; use the quantitative product for numbers."
+  },
+  {
+   "id": "asu_gale_qualTI",
+   "name": "ASU THEMIS MSL landing-site mosaic, Gale (site 42), qualitative thermal inertia",
+   "page": "https://themis.asu.edu/landingsites/mslsite_42",
+   "contact": "Robin L. Fergason",
+   "files": [
+    {
+     "fmt": "GeoTIFF 8-bit 1779x1779",
+     "url": "http://static.mars.asu.edu/themis/landingsites/msl42/qualTI/Gale_crater_THEMIS_qualTI.tif",
+     "http": 200,
+     "bytes": 3170896
+    },
+    {
+     "fmt": "world file",
+     "url": "http://static.mars.asu.edu/themis/landingsites/msl42/qualTI/Gale_crater_THEMIS_qualTI.wld",
+     "http": 200,
+     "bytes": 96,
+     "content": [
+      100.0000014901,
+      0.0,
+      0.0,
+      -100.0000014901,
+      -2612850.038934499,
+      -177250.0026412308
+     ]
+    },
+    {
+     "fmt": "ISIS cube",
+     "url": "http://static.mars.asu.edu/themis/landingsites/msl42/qualTI/Gale_crater_THEMIS_qualTI_ISIS.cub",
+     "http": 200,
+     "bytes": 3196073
+    },
+    {
+     "fmt": "scale bar PNG (50 to 520 J m-2 K-1 s-1/2, grayscale)",
+     "url": "http://static.mars.asu.edu/themis/landingsites/msl42/qualTI/Gale_crater_THEMIS_TI_scalebar.png",
+     "http": 200,
+     "bytes": 8463
+    },
+    {
+     "fmt": "aux.xml (projection WKT)",
+     "url": "http://static.mars.asu.edu/themis/landingsites/msl42/qualTI/Gale_crater_THEMIS_qualTI.png.aux.xml",
+     "http": 200,
+     "bytes": 1127
+    }
+   ],
+   "projection": "Mars2000 sphere (3396190 m) Equidistant Cylindrical, Central_Meridian 180 (NOT 0). To map grid: x_map = x_file + pi*3396190 = x_file + 10669347.5 m; y unchanged.",
+   "resolution_m": 100,
+   "units": "8-bit qualitative; DN-to-TI stretch only via scale bar (50 to 520)",
+   "quantTI_dir": "http://static.mars.asu.edu/themis/landingsites/msl42/quantTI/ (empty listing on 2026-11-14)"
+  },
+  {
+   "id": "crism_mtrdr",
+   "name": "MRO CRISM MTRDR browse + summary parameters",
+   "details_file": "crism_products.json",
+   "resolution_m": "18 (FRT) / 36 (HRL)",
+   "projection": "EQUIRECTANGULAR, sphere 3396.19 km, center lon 0 (identical to map); ENVI .hdr map info gives UL corner"
+  },
+  {
+   "id": "crism_mtrdr_albedo",
+   "name": "CRISM MTRDR IR albedo (IRA = R1330) and VNIR albedo (VNA = R770) browse",
+   "resolution_m": 18,
+   "note": "Only orbital albedo-type layers finer than 100 m found covering the box. Not a dust or rock-abundance product.",
+   "details_file": "crism_products.json (browse codes IRA, VNA)"
+  },
+  {
+   "id": "tes_rock_abundance",
+   "name": "TES rock abundance + fine-component inertia (Nowicki & Christensen 2007)",
+   "doi": "10.1029/2006JE002798",
+   "resolution": "8 pixels per degree (~7.4 km at equator)",
+   "note": "Coarser than 100 m; listed only to document that it does not meet the <100 m requirement. No download URL verified."
+  }
+ ],
+ "not_found_better_than_100m": [
+  "orbital rock abundance covering the box",
+  "orbital dust cover product covering the box",
+  "thermal inertia finer than THEMIS 100 m"
+ ]
+}

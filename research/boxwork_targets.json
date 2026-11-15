@@ -1,0 +1,2165 @@
+{
+ "note": "Curated from NASA Curiosity blog posts, JPL/NASA releases and abstracts listed per entry. rover_at_or_before_sol = last msl_wp.json waypoint with sol <= sol (or post's first sol when no exact sol). rover_start_of_plan = last waypoint with sol < post's first sol (parking spot where workspace targets were usually observed). Positions are the rover reference point, not the target itself (arm targets are ~1-2 m in front; remote_feature entries are far away).",
+ "targets": [
+  {
+   "name": "Altadena",
+   "kind": "drill hole #43 (edge/transition of boxwork unit)",
+   "sol": 4564,
+   "post_sols": "4566-4567",
+   "date": "2025-06-08",
+   "what": "Drilled over the weekend; hole imaged by Mastcam sol 4564. First boxwork-unit drill; CheMin found phyllosilicates largely absent from surrounding Layered Sulfate unit (GSA 2025).",
+   "sources": [
+    "https://science.nasa.gov/blog/sol-4564-front-hazard-avoidance-camera-front-hazcam/",
+    "https://science.nasa.gov/blog/sols-4561-4562-prepping-to-drill-at-altadena/",
+    "https://science.nasa.gov/blog/curiosity-blog-sols-4568-4569-a-close-look-at-the-altadena-drill-hole-and-tailings/",
+    "https://gsameetings.secure-platform.com/connects25/solicitations/103002/sessiongallery/schedule/items/95386/application/10634",
+    "https://www.jpl.nasa.gov/news/nasas-curiosity-mars-rover-starts-unpacking-boxwork-formations/"
+   ],
+   "remote_feature": false,
+   "rover_at_or_before_sol": {
+    "sol": 4560,
+    "site": 116,
+    "drive": 1944,
+    "lat": -4.79984723,
+    "lon": 137.3835414,
+    "easting": 8143367.862,
+    "northing": -284509.493,
+    "elev_geoid": -3647.181
+   },
+   "rover_start_of_plan": {
+    "sol": 4560,
+    "site": 116,
+    "drive": 1944,
+    "lat": -4.79984723,
+    "lon": 137.3835414,
+    "easting": 8143367.862,
+    "northing": -284509.493,
+    "elev_geoid": -3647.181
+   }
+  },
+  {
+   "name": "Valle de la Luna",
+   "kind": "drill hole #44 (bedrock block in Monte Grande hollow)",
+   "sol": 4693,
+   "post_sols": "4695-4701",
+   "date": "2025-10-19",
+   "what": "Drilled weekend of Oct 18-19 2025; Hazcam 'caught in the act' and Mastcam hole image both sol 4693. Hollow sample: carbonate (JPL) / siderite (Seeger et al. 2026).",
+   "sources": [
+    "https://science.nasa.gov/blog/curiosity-blog-sols-4695-4701-searching-for-answers-at-monte-grande/",
+    "https://science.nasa.gov/blog/curiosity-blog-sols-4689-4694-drill-in-the-boxwork-unit-is-go/",
+    "https://science.nasa.gov/blog/curiosity-blog-sols-4702-4708-its-only-spooky-here-on-earth-today/",
+    "https://www.jpl.nasa.gov/news/nasas-curiosity-rover-sees-martian-spiderwebs-up-close/",
+    "https://authors.library.caltech.edu/records/6522c-90325"
+   ],
+   "remote_feature": false,
+   "rover_at_or_before_sol": {
+    "sol": 4687,
+    "site": 119,
+    "drive": 1722,
+    "lat": -4.80783916,
+    "lon": 137.3810353,
+    "easting": 8143219.316,
+    "northing": -284983.212,
+    "elev_geoid": -3610.432
+   },
+   "rover_start_of_plan": {
+    "sol": 4687,
+    "site": 119,
+    "drive": 1722,
+    "lat": -4.80783916,
+    "lon": 137.3810353,
+    "easting": 8143219.316,
+    "northing": -284983.212,
+    "elev_geoid": -3610.432
+   }
+  },
+  {
+   "name": "Nevado Sajama",
+   "kind": "drill hole #45 (ridge top next to Monte Grande)",
+   "sol": 4718,
+   "post_sols": "4716-4722",
+   "date": "2025-11-13",
+   "what": "'The drill activity itself completed on Sol 4718.' Ridge sample: clay minerals (JPL). Site of 1.5-gigapixel 360 deg panorama, sols 4714-4741.",
+   "sources": [
+    "https://science.nasa.gov/blog/curiosity-blog-sols-4716-4722-drilling-success-at-nevado-sajama/",
+    "https://science.nasa.gov/blog/curiosity-blog-sols-4709-4715-drilling-high-and-low-in-the-boxwork-unit/",
+    "https://science.nasa.gov/blog/curiosity-blog-sols-4723-4730-digging-into-nevado-sajama/",
+    "https://science.nasa.gov/blog/curiosity-blog-sols-4731-4742-finishing-up-at-nevado-sajama/",
+    "https://www.jpl.nasa.gov/images/pia26696-curiosity-captures-a-360-degree-view-at-nevado-sajama/",
+    "https://www.jpl.nasa.gov/news/nasas-curiosity-rover-sees-martian-spiderwebs-up-close/"
+   ],
+   "remote_feature": false,
+   "rover_at_or_before_sol": {
+    "sol": 4711,
+    "site": 120,
+    "drive": 82,
+    "lat": -4.80800755,
+    "lon": 137.3810041,
+    "easting": 8143217.465,
+    "northing": -284993.193,
+    "elev_geoid": -3607.722
+   },
+   "rover_start_of_plan": {
+    "sol": 4711,
+    "site": 120,
+    "drive": 82,
+    "lat": -4.80800755,
+    "lon": 137.3810041,
+    "easting": 8143217.465,
+    "northing": -284993.193,
+    "elev_geoid": -3607.722
+   }
+  },
+  {
+   "name": "Nevado Sajama2",
+   "kind": "drill hole (4th boxwork sample, a few cm from Nevado Sajama)",
+   "sol": 4795,
+   "post_sols": "4798-4803",
+   "date": "2026-01-31",
+   "what": "Drilled the weekend after Jan 30 2026 planning for SAM's last TMAH wet-chemistry cup; Mastcam shows both holes side by side on sol 4795. Hole number not stated; Campo Marte is later called the 47th successful drill.",
+   "sources": [
+    "https://science.nasa.gov/blog/curiosity-blog-sols-4798-4803-back-for-more-science/",
+    "https://science.nasa.gov/blog/curiosity-blog-sols-4788-4797-welcome-back-from-conjunction/",
+    "https://science.nasa.gov/blog/curiosity-blog-sols-4804-4811-kicking-off-the-final-phase-of-boxwork-exploration/",
+    "https://www.jpl.nasa.gov/news/nasas-curiosity-rover-sees-martian-spiderwebs-up-close/"
+   ],
+   "remote_feature": false,
+   "rover_at_or_before_sol": {
+    "sol": 4789,
+    "site": 120,
+    "drive": 574,
+    "lat": -4.80800539,
+    "lon": 137.3809924,
+    "easting": 8143216.772,
+    "northing": -284993.065,
+    "elev_geoid": -3608.018
+   },
+   "rover_start_of_plan": {
+    "sol": 4789,
+    "site": 120,
+    "drive": 574,
+    "lat": -4.80800539,
+    "lon": 137.3809924,
+    "easting": 8143216.772,
+    "northing": -284993.065,
+    "elev_geoid": -3608.018
+   }
+  },
+  {
+   "name": "Atacama",
+   "kind": "drill attempt (layered sulfate unit above boxwork)",
+   "sol": null,
+   "post_sols": "4873-4878",
+   "date": null,
+   "what": "Drill sols 2-3 planned for sols 4876-4878 (exact drill sol not stated). Hole was made but the detached block lifted with the bit; freed in the sol 4883-4885 plan (Mastcam sol 4883, May 2 2026); tailings lost.",
+   "sources": [
+    "https://science.nasa.gov/blog/curiosity-blog-sols-4873-4878-welcome-to-the-atacama-drill-target/",
+    "https://science.nasa.gov/blog/curiosity-blog-sols-4867-4872-sand-fill-in-antofagasta-crater-and-finding-our-next-drill-target/",
+    "https://science.nasa.gov/blog/curiosity-blog-sols-4879-4885-struggle-at-atacama/",
+    "https://science.nasa.gov/blog/curiosity-blog-sols-4886-4892-ingenuity-and-perseverance-curiosity-style/"
+   ],
+   "remote_feature": false,
+   "rover_at_or_before_sol": {
+    "sol": 4868,
+    "site": 122,
+    "drive": 0,
+    "lat": -4.8142672,
+    "lon": 137.3817063,
+    "easting": 8143259.087,
+    "northing": -285364.232,
+    "elev_geoid": -3570.45
+   },
+   "rover_start_of_plan": {
+    "sol": 4868,
+    "site": 122,
+    "drive": 0,
+    "lat": -4.8142672,
+    "lon": 137.3817063,
+    "easting": 8143259.087,
+    "northing": -285364.232,
+    "elev_geoid": -3570.45
+   }
+  },
+  {
+   "name": "Campo Marte",
+   "kind": "drill hole #47 'successful' (layered sulfate unit above boxwork)",
+   "sol": 4897,
+   "post_sols": "4900-4907",
+   "date": "2026-05-16",
+   "what": "First color image of the hole sol 4897. Drilled only 28 mm deep (usual 35 mm). Same stratum as Atacama.",
+   "sources": [
+    "https://science.nasa.gov/blog/curiosity-blog-sols-4900-4907-pasadena-we-have-a-drill-sample/",
+    "https://science.nasa.gov/blog/curiosity-blog-sols-4893-4899-drilling-at-campo-marte-and-a-visit-from-the-psyche-spacecraft/",
+    "https://science.nasa.gov/blog/curiosity-blog-sols-4908-4912-goodbye-campo-marte-its-been-fun/"
+   ],
+   "remote_feature": false,
+   "rover_at_or_before_sol": {
+    "sol": 4893,
+    "site": 122,
+    "drive": 462,
+    "lat": -4.81439703,
+    "lon": 137.3815811,
+    "easting": 8143251.668,
+    "northing": -285371.928,
+    "elev_geoid": -3569.59
+   },
+   "rover_start_of_plan": {
+    "sol": 4893,
+    "site": 122,
+    "drive": 462,
+    "lat": -4.81439703,
+    "lon": 137.3815811,
+    "easting": 8143251.668,
+    "northing": -285371.928,
+    "elev_geoid": -3569.59
+   }
+  },
+  {
+   "name": "Basque Lakes",
+   "kind": "drill hole #48 (Cache Creek quad; first drill above the erosional supersurface)",
+   "sol": 5024,
+   "post_sols": "5022-5028",
+   "date": "2026-09-24",
+   "what": "MAHLI after preload test sol 5023; Navcam shows the hole and tailings sol 5024.",
+   "sources": [
+    "https://science.nasa.gov/blog/curiosity-blog-sols-5022-5028-cashing-in-at-cache-creek/",
+    "https://science.nasa.gov/blog/curiosity-blog-sols-5016-5021-fantastic-minerals-and-how-to-detect-them/",
+    "https://science.nasa.gov/blog/curiosity-blog-sols-5029-5035-back-in-the-lab/",
+    "https://science.nasa.gov/blog/curiosity-blog-sols-5036-5042-watching-the-clouds-go-by/"
+   ],
+   "remote_feature": false,
+   "rover_at_or_before_sol": {
+    "sol": 5021,
+    "site": 125,
+    "drive": 558,
+    "lat": -4.82513971,
+    "lon": 137.3888471,
+    "easting": 8143682.353,
+    "northing": -286008.697,
+    "elev_geoid": -3479.905
+   },
+   "rover_start_of_plan": {
+    "sol": 5021,
+    "site": 125,
+    "drive": 558,
+    "lat": -4.82513971,
+    "lon": 137.3888471,
+    "easting": 8143682.353,
+    "northing": -286008.697,
+    "elev_geoid": -3479.905
+   }
+  },
+  {
+   "name": "Nazca",
+   "kind": "drill hole #49 (block packed with disc/needle-shaped potential crystal forms, next to Chiu Chiu)",
+   "sol": 5050,
+   "post_sols": "5050-5055",
+   "date": "2026-10-20",
+   "what": "Mastcam image of the Nazca drill hole on sol 5050. Samples to CheMin and SAM; campaign wrapped up and drove away in the sol 5063-5069 week.",
+   "sources": [
+    "https://science.nasa.gov/blog/curiosity-blog-sols-5050-5055-its-nazca-our-49th-drill-hole/",
+    "https://science.nasa.gov/blog/curiosity-blog-sols-5043-5049-preparing-to-drill-at-nazca/",
+    "https://science.nasa.gov/blog/curiosity-blog-sols-5056-5062-charging-back-up/",
+    "https://science.nasa.gov/blog/curiosity-blog-sols-5063-5069-rocks-and-chips/"
+   ],
+   "remote_feature": false,
+   "rover_at_or_before_sol": {
+    "sol": 5045,
+    "site": 125,
+    "drive": 1326,
+    "lat": -4.82466475,
+    "lon": 137.3876138,
+    "easting": 8143609.251,
+    "northing": -285980.544,
+    "elev_geoid": -3487.995
+   },
+   "rover_start_of_plan": {
+    "sol": 5045,
+    "site": 125,
+    "drive": 1326,
+    "lat": -4.82466475,
+    "lon": 137.3876138,
+    "easting": 8143609.251,
+    "northing": -285980.544,
+    "elev_geoid": -3487.995
+   }
+  },
+  {
+   "name": "Boxwork unit contact (first crossing)",
+   "kind": "geologic contact, Layered Sulfate unit to boxwork interval",
+   "sol": 4534,
+   "post_sols": null,
+   "date": "2025-05-07",
+   "what": "'crossed the contact from the Layered Sulfate unit (LSu) on sol 4534 (5/7/2025)' (GSA 2025). Phase 1 of the campaign = sols 4534-4570.",
+   "sources": [
+    "https://gsameetings.secure-platform.com/connects25/solicitations/103002/sessiongallery/schedule/items/95386/application/10634",
+    "https://science.nasa.gov/blog/curiosity-blog-sols-4804-4811-kicking-off-the-final-phase-of-boxwork-exploration/"
+   ],
+   "remote_feature": false,
+   "rover_at_or_before_sol": {
+    "sol": 4534,
+    "site": 116,
+    "drive": 0,
+    "lat": -4.79761763,
+    "lon": 137.3864361,
+    "easting": 8143539.442,
+    "northing": -284377.334,
+    "elev_geoid": -3657.644
+   },
+   "rover_start_of_plan": {
+    "sol": 4532,
+    "site": 115,
+    "drive": 2616,
+    "lat": -4.79749702,
+    "lon": 137.3866494,
+    "easting": 8143552.09,
+    "northing": -284370.185,
+    "elev_geoid": -3658.288
+   }
+  },
+  {
+   "name": "Glendale Peak",
+   "kind": "rugged top of a ridge defining a potential boxwork structure",
+   "sol": null,
+   "post_sols": "4541-4542",
+   "date": null,
+   "what": "ChemCam LIBS + Mastcam on the ridge top.",
+   "sources": [
+    "https://science.nasa.gov/blog/sols-4541-4542-boxwork-structure-or-just-box-like-structure/"
+   ],
+   "remote_feature": false,
+   "rover_at_or_before_sol": {
+    "sol": 4541,
+    "site": 116,
+    "drive": 414,
+    "lat": -4.79781585,
+    "lon": 137.3859258,
+    "easting": 8143509.198,
+    "northing": -284389.083,
+    "elev_geoid": -3654.97
+   },
+   "rover_start_of_plan": {
+    "sol": 4539,
+    "site": 116,
+    "drive": 408,
+    "lat": -4.797816,
+    "lon": 137.3859207,
+    "easting": 8143508.892,
+    "northing": -284389.092,
+    "elev_geoid": -3654.97
+   }
+  },
+  {
+   "name": "Sisquoc River / Palo Verde Mountains",
+   "kind": "resistant ridge-like features in the boxwork workspace",
+   "sol": 4553,
+   "post_sols": "4553-4553",
+   "date": null,
+   "what": "Ridge composition via ChemCam (Sisquoc River) and APXS (Palo Verde Mountains).",
+   "sources": [
+    "https://science.nasa.gov/blog/sol-4553-back-to-the-boxwork/"
+   ],
+   "remote_feature": false,
+   "rover_at_or_before_sol": {
+    "sol": 4552,
+    "site": 116,
+    "drive": 1596,
+    "lat": -4.79926999,
+    "lon": 137.3835727,
+    "easting": 8143369.718,
+    "northing": -284475.277,
+    "elev_geoid": -3648.368
+   },
+   "rover_start_of_plan": {
+    "sol": 4552,
+    "site": 116,
+    "drive": 1596,
+    "lat": -4.79926999,
+    "lon": 137.3835727,
+    "easting": 8143369.718,
+    "northing": -284475.277,
+    "elev_geoid": -3648.368
+   }
+  },
+  {
+   "name": "Camp Williams",
+   "kind": "sandy patches used as wind change-detection targets at the Altadena drill site",
+   "sol": null,
+   "post_sols": "4561-4562",
+   "date": null,
+   "what": "Mastcam M100 repeat frames over many sols.",
+   "sources": [
+    "https://science.nasa.gov/blog/sols-4561-4562-prepping-to-drill-at-altadena/",
+    "https://science.nasa.gov/blog/curiosity-blog-sols-4563-4565-doing-what-we-do-best/",
+    "https://science.nasa.gov/blog/sol-4564-front-hazard-avoidance-camera-front-hazcam/"
+   ],
+   "remote_feature": false,
+   "rover_at_or_before_sol": {
+    "sol": 4560,
+    "site": 116,
+    "drive": 1944,
+    "lat": -4.79984723,
+    "lon": 137.3835414,
+    "easting": 8143367.862,
+    "northing": -284509.493,
+    "elev_geoid": -3647.181
+   },
+   "rover_start_of_plan": {
+    "sol": 4560,
+    "site": 116,
+    "drive": 1944,
+    "lat": -4.79984723,
+    "lon": 137.3835414,
+    "easting": 8143367.862,
+    "northing": -284509.493,
+    "elev_geoid": -3647.181
+   }
+  },
+  {
+   "name": "Los Patos",
+   "kind": "depression, maybe a small impact crater or boxwork structure",
+   "sol": null,
+   "post_sols": "4573-4574",
+   "date": null,
+   "what": "Mastcam mosaic.",
+   "sources": [
+    "https://science.nasa.gov/blog/curiosity-blog-sols-4573-4574-welcome-to-the-uyuni-quad/"
+   ],
+   "remote_feature": false,
+   "rover_at_or_before_sol": {
+    "sol": 4573,
+    "site": 116,
+    "drive": 2562,
+    "lat": -4.80116383,
+    "lon": 137.382517,
+    "easting": 8143307.139,
+    "northing": -284587.534,
+    "elev_geoid": -3644.188
+   },
+   "rover_start_of_plan": {
+    "sol": 4571,
+    "site": 116,
+    "drive": 2214,
+    "lat": -4.80040688,
+    "lon": 137.382987,
+    "easting": 8143334.999,
+    "northing": -284542.666,
+    "elev_geoid": -3643.934
+   }
+  },
+  {
+   "name": "Laguna del Bayo",
+   "kind": "potential fracture fill in front of the parking spot",
+   "sol": null,
+   "post_sols": "4575-4576",
+   "date": null,
+   "what": "Mastcam mosaic; Tarija = brushed typical bedrock nearby.",
+   "sources": [
+    "https://science.nasa.gov/blog/curiosity-blog-sols-4575-4576-perfect-parking-spot/"
+   ],
+   "remote_feature": false,
+   "rover_at_or_before_sol": {
+    "sol": 4575,
+    "site": 117,
+    "drive": 0,
+    "lat": -4.80190838,
+    "lon": 137.3821132,
+    "easting": 8143283.206,
+    "northing": -284631.667,
+    "elev_geoid": -3644.423
+   },
+   "rover_start_of_plan": {
+    "sol": 4573,
+    "site": 116,
+    "drive": 2562,
+    "lat": -4.80116383,
+    "lon": 137.382517,
+    "easting": 8143307.139,
+    "northing": -284587.534,
+    "elev_geoid": -3644.188
+   }
+  },
+  {
+   "name": "Copacabana / Ardamarca",
+   "kind": "trough-floor bedrock (Copacabana) and a ridge parallel to the trough walls (Ardamarca)",
+   "sol": null,
+   "post_sols": "4577-4579",
+   "date": null,
+   "what": "Contact science on trough bedrock; stereo mosaic of the ridge.",
+   "sources": [
+    "https://science.nasa.gov/blog/curiosity-blog-sols-4577-4579-watch-the-skies/"
+   ],
+   "remote_feature": false,
+   "rover_at_or_before_sol": {
+    "sol": 4575,
+    "site": 117,
+    "drive": 0,
+    "lat": -4.80190838,
+    "lon": 137.3821132,
+    "easting": 8143283.206,
+    "northing": -284631.667,
+    "elev_geoid": -3644.423
+   },
+   "rover_start_of_plan": {
+    "sol": 4575,
+    "site": 117,
+    "drive": 0,
+    "lat": -4.80190838,
+    "lon": 137.3821132,
+    "easting": 8143283.206,
+    "northing": -284631.667,
+    "elev_geoid": -3644.423
+   }
+  },
+  {
+   "name": "Volcan Pena Blanca",
+   "kind": "prominent raised ridge with side + top view, at least three layers",
+   "sol": 4593,
+   "post_sols": "4593-4594",
+   "date": null,
+   "what": "Imaged from ~10 m on sol 4591; contact science on upper (Parinacota, DRT+APXS) and middle (Wila Willki) outcrop; LIBS Pichu Pichu, Tacume. Phase 2 stop.",
+   "sources": [
+    "https://science.nasa.gov/blog/curiosity-blog-sols-4593-4594-three-layers-and-a-lot-of-structure-at-volcan-pena-blanca/",
+    "https://science.nasa.gov/blog/curiosity-blog-sols-4580-4581-something-in-the-air/",
+    "https://science.nasa.gov/blog/curiosity-blog-sols-4589-4592-setting-up-to-explore-volcan-pena-blanca/",
+    "https://science.nasa.gov/blog/curiosity-blog-sols-4804-4811-kicking-off-the-final-phase-of-boxwork-exploration/"
+   ],
+   "remote_feature": false,
+   "rover_at_or_before_sol": {
+    "sol": 4591,
+    "site": 117,
+    "drive": 1122,
+    "lat": -4.80250974,
+    "lon": 137.3804498,
+    "easting": 8143184.61,
+    "northing": -284667.312,
+    "elev_geoid": -3644.62
+   },
+   "rover_start_of_plan": {
+    "sol": 4591,
+    "site": 117,
+    "drive": 1122,
+    "lat": -4.80250974,
+    "lon": 137.3804498,
+    "easting": 8143184.61,
+    "northing": -284667.312,
+    "elev_geoid": -3644.62
+   }
+  },
+  {
+   "name": "Ouro",
+   "kind": "displaced block near a circular depression (possible small crater)",
+   "sol": null,
+   "post_sols": "4595-4596",
+   "date": null,
+   "what": "Color imaging.",
+   "sources": [
+    "https://science.nasa.gov/blog/curiosity-blog-sols-4595-4596-just-another-beautiful-day-on-mars/"
+   ],
+   "remote_feature": false,
+   "rover_at_or_before_sol": {
+    "sol": 4594,
+    "site": 117,
+    "drive": 1434,
+    "lat": -4.802963,
+    "lon": 137.3804319,
+    "easting": 8143183.545,
+    "northing": -284694.179,
+    "elev_geoid": -3642.423
+   },
+   "rover_start_of_plan": {
+    "sol": 4594,
+    "site": 117,
+    "drive": 1434,
+    "lat": -4.802963,
+    "lon": 137.3804319,
+    "easting": 8143183.545,
+    "northing": -284694.179,
+    "elev_geoid": -3642.423
+   }
+  },
+  {
+   "name": "Meson",
+   "kind": "ridge driven onto (15 m drive)",
+   "sol": null,
+   "post_sols": "4602-4603",
+   "date": null,
+   "what": "Phase 3 (best-expressed boxwork) starts sol 4600.",
+   "sources": [
+    "https://science.nasa.gov/blog/curiosity-blog-sols-4602-4603-on-top-of-the-ridge/",
+    "https://science.nasa.gov/blog/curiosity-blog-sols-4804-4811-kicking-off-the-final-phase-of-boxwork-exploration/"
+   ],
+   "remote_feature": false,
+   "rover_at_or_before_sol": {
+    "sol": 4602,
+    "site": 117,
+    "drive": 2490,
+    "lat": -4.80436679,
+    "lon": 137.3796237,
+    "easting": 8143135.643,
+    "northing": -284777.388,
+    "elev_geoid": -3630.754
+   },
+   "rover_start_of_plan": {
+    "sol": 4600,
+    "site": 117,
+    "drive": 2370,
+    "lat": -4.804189,
+    "lon": 137.3796858,
+    "easting": 8143139.321,
+    "northing": -284766.85,
+    "elev_geoid": -3632.878
+   }
+  },
+  {
+   "name": "Totoral / Sillar",
+   "kind": "ridge-top parking chosen to compare ridge chemistry and texture with topographic lows",
+   "sol": null,
+   "post_sols": "4604-4606",
+   "date": null,
+   "what": "APXS + MAHLI on different parts of the nodular bedrock; Vicuna = well-exposed vein (LIBS).",
+   "sources": [
+    "https://science.nasa.gov/blog/curiosity-blog-sols-4604-4606-taking-a-deep-breath-of-martian-air/"
+   ],
+   "remote_feature": false,
+   "rover_at_or_before_sol": {
+    "sol": 4602,
+    "site": 117,
+    "drive": 2490,
+    "lat": -4.80436679,
+    "lon": 137.3796237,
+    "easting": 8143135.643,
+    "northing": -284777.388,
+    "elev_geoid": -3630.754
+   },
+   "rover_start_of_plan": {
+    "sol": 4602,
+    "site": 117,
+    "drive": 2490,
+    "lat": -4.80436679,
+    "lon": 137.3796237,
+    "easting": 8143135.643,
+    "northing": -284777.388,
+    "elev_geoid": -3630.754
+   }
+  },
+  {
+   "name": "Lake Titicaca",
+   "kind": "nodular rock pillar",
+   "sol": null,
+   "post_sols": "4607-4608",
+   "date": null,
+   "what": "ChemCam LIBS.",
+   "sources": [
+    "https://science.nasa.gov/blog/curiosity-blog-sols-4607-4608-deep-dip/"
+   ],
+   "remote_feature": false,
+   "rover_at_or_before_sol": {
+    "sol": 4605,
+    "site": 117,
+    "drive": 2538,
+    "lat": -4.80443344,
+    "lon": 137.3795572,
+    "easting": 8143131.699,
+    "northing": -284781.339,
+    "elev_geoid": -3631.479
+   },
+   "rover_start_of_plan": {
+    "sol": 4605,
+    "site": 117,
+    "drive": 2538,
+    "lat": -4.80443344,
+    "lon": 137.3795572,
+    "easting": 8143131.699,
+    "northing": -284781.339,
+    "elev_geoid": -3631.479
+   }
+  },
+  {
+   "name": "Punta de Lobos",
+   "kind": "rock with dendritic-looking texture",
+   "sol": null,
+   "post_sols": "4609-4610",
+   "date": null,
+   "what": "Mastcam.",
+   "sources": [
+    "https://science.nasa.gov/blog/curiosity-blog-sols-4609-4610-recharged-and-ready-to-roll-onwards/"
+   ],
+   "remote_feature": false,
+   "rover_at_or_before_sol": {
+    "sol": 4609,
+    "site": 117,
+    "drive": 2730,
+    "lat": -4.80474015,
+    "lon": 137.3793204,
+    "easting": 8143117.662,
+    "northing": -284799.519,
+    "elev_geoid": -3624.329
+   },
+   "rover_start_of_plan": {
+    "sol": 4605,
+    "site": 117,
+    "drive": 2538,
+    "lat": -4.80443344,
+    "lon": 137.3795572,
+    "easting": 8143131.699,
+    "northing": -284781.339,
+    "elev_geoid": -3631.479
+   }
+  },
+  {
+   "name": "Arequipa Airport",
+   "kind": "ridge the rover drove on; strata exposed underneath",
+   "sol": null,
+   "post_sols": "4611-4613",
+   "date": null,
+   "what": "RMI + Mastcam M100 mosaics.",
+   "sources": [
+    "https://science.nasa.gov/blog/curiosity-blog-sols-4611-4613-scenic-overlook/"
+   ],
+   "remote_feature": false,
+   "rover_at_or_before_sol": {
+    "sol": 4609,
+    "site": 117,
+    "drive": 2730,
+    "lat": -4.80474015,
+    "lon": 137.3793204,
+    "easting": 8143117.662,
+    "northing": -284799.519,
+    "elev_geoid": -3624.329
+   },
+   "rover_start_of_plan": {
+    "sol": 4609,
+    "site": 117,
+    "drive": 2730,
+    "lat": -4.80474015,
+    "lon": 137.3793204,
+    "easting": 8143117.662,
+    "northing": -284799.519,
+    "elev_geoid": -3624.329
+   }
+  },
+  {
+   "name": "Canon de Palca",
+   "kind": "bedrock next to a large fracture in the workspace",
+   "sol": null,
+   "post_sols": "4614-4615",
+   "date": null,
+   "what": "DRT + APXS + MAHLI; Caine = boxwork ridges imaged.",
+   "sources": [
+    "https://science.nasa.gov/blog/curiosity-blog-sols-4614-4615-driving-along-the-boxwork/"
+   ],
+   "remote_feature": false,
+   "rover_at_or_before_sol": {
+    "sol": 4614,
+    "site": 118,
+    "drive": 0,
+    "lat": -4.80520603,
+    "lon": 137.3794477,
+    "easting": 8143125.209,
+    "northing": -284827.134,
+    "elev_geoid": -3622.376
+   },
+   "rover_start_of_plan": {
+    "sol": 4612,
+    "site": 117,
+    "drive": 2850,
+    "lat": -4.80494509,
+    "lon": 137.3792959,
+    "easting": 8143116.209,
+    "northing": -284811.667,
+    "elev_geoid": -3623.51
+   }
+  },
+  {
+   "name": "El Salto",
+   "kind": "target on the central line running along the big ridge (central fracture)",
+   "sol": null,
+   "post_sols": "4616-4617",
+   "date": null,
+   "what": "APXS + MAHLI + ChemCam 'could get us a glimpse into what formed the central line'.",
+   "sources": [
+    "https://science.nasa.gov/blog/curiosity-blog-sols-4616-4617-standing-tall-on-the-ridge/"
+   ],
+   "remote_feature": false,
+   "rover_at_or_before_sol": {
+    "sol": 4616,
+    "site": 118,
+    "drive": 162,
+    "lat": -4.80545276,
+    "lon": 137.3795247,
+    "easting": 8143129.77,
+    "northing": -284841.759,
+    "elev_geoid": -3620.597
+   },
+   "rover_start_of_plan": {
+    "sol": 4614,
+    "site": 118,
+    "drive": 0,
+    "lat": -4.80520603,
+    "lon": 137.3794477,
+    "easting": 8143125.209,
+    "northing": -284827.134,
+    "elev_geoid": -3622.376
+   }
+  },
+  {
+   "name": "Llullaillaco",
+   "kind": "small mound with veins and the hollow around it",
+   "sol": null,
+   "post_sols": "4616-4617",
+   "date": null,
+   "what": "Mastcam.",
+   "sources": [
+    "https://science.nasa.gov/blog/curiosity-blog-sols-4616-4617-standing-tall-on-the-ridge/"
+   ],
+   "remote_feature": false,
+   "rover_at_or_before_sol": {
+    "sol": 4616,
+    "site": 118,
+    "drive": 162,
+    "lat": -4.80545276,
+    "lon": 137.3795247,
+    "easting": 8143129.77,
+    "northing": -284841.759,
+    "elev_geoid": -3620.597
+   },
+   "rover_start_of_plan": {
+    "sol": 4614,
+    "site": 118,
+    "drive": 0,
+    "lat": -4.80520603,
+    "lon": 137.3794477,
+    "easting": 8143125.209,
+    "northing": -284827.134,
+    "elev_geoid": -3622.376
+   }
+  },
+  {
+   "name": "Salar de Agua Amara",
+   "kind": "delicate branching structures 'likely made by groundwater'",
+   "sol": null,
+   "post_sols": "4618-4619",
+   "date": null,
+   "what": "MAHLI.",
+   "sources": [
+    "https://science.nasa.gov/blog/curiosity-blog-sols-4618-4619-the-boxwork-structures-continue-to-call-to-us/"
+   ],
+   "remote_feature": false,
+   "rover_at_or_before_sol": {
+    "sol": 4618,
+    "site": 118,
+    "drive": 198,
+    "lat": -4.80549507,
+    "lon": 137.3795358,
+    "easting": 8143130.43,
+    "northing": -284844.267,
+    "elev_geoid": -3620.486
+   },
+   "rover_start_of_plan": {
+    "sol": 4616,
+    "site": 118,
+    "drive": 162,
+    "lat": -4.80545276,
+    "lon": 137.3795247,
+    "easting": 8143129.77,
+    "northing": -284841.759,
+    "elev_geoid": -3620.597
+   }
+  },
+  {
+   "name": "Airport Domes",
+   "kind": "a hollow in the boxworks",
+   "sol": null,
+   "post_sols": "4618-4619",
+   "date": null,
+   "what": "ChemCam LIBS.",
+   "sources": [
+    "https://science.nasa.gov/blog/curiosity-blog-sols-4618-4619-the-boxwork-structures-continue-to-call-to-us/"
+   ],
+   "remote_feature": false,
+   "rover_at_or_before_sol": {
+    "sol": 4618,
+    "site": 118,
+    "drive": 198,
+    "lat": -4.80549507,
+    "lon": 137.3795358,
+    "easting": 8143130.43,
+    "northing": -284844.267,
+    "elev_geoid": -3620.486
+   },
+   "rover_start_of_plan": {
+    "sol": 4616,
+    "site": 118,
+    "drive": 162,
+    "lat": -4.80545276,
+    "lon": 137.3795247,
+    "easting": 8143129.77,
+    "northing": -284841.759,
+    "elev_geoid": -3620.597
+   }
+  },
+  {
+   "name": "Pular / Socompa",
+   "kind": "resistant veins (filled fractures)",
+   "sol": null,
+   "post_sols": "4620-4621",
+   "date": null,
+   "what": "APXS + MAHLI; LIBS on two similar veins.",
+   "sources": [
+    "https://science.nasa.gov/blog/curiosity-blog-sols-4620-4621-among-the-hollows-and-the-ridges/"
+   ],
+   "remote_feature": false,
+   "rover_at_or_before_sol": {
+    "sol": 4618,
+    "site": 118,
+    "drive": 198,
+    "lat": -4.80549507,
+    "lon": 137.3795358,
+    "easting": 8143130.43,
+    "northing": -284844.267,
+    "elev_geoid": -3620.486
+   },
+   "rover_start_of_plan": {
+    "sol": 4618,
+    "site": 118,
+    "drive": 198,
+    "lat": -4.80549507,
+    "lon": 137.3795358,
+    "easting": 8143130.43,
+    "northing": -284844.267,
+    "elev_geoid": -3620.486
+   }
+  },
+  {
+   "name": "Lago Poopo / Vicguna",
+   "kind": "bright clean vein network (Lago Poopo); protruding vein edge with nodular texture (Vicguna)",
+   "sol": null,
+   "post_sols": "4622-4623",
+   "date": null,
+   "what": "Vein campaign; Repechon = loose block with dark mottled material.",
+   "sources": [
+    "https://science.nasa.gov/blog/curiosity-blog-sols-4622-4623-kicking-off-earth-year-14-with-an-investigation-of-veins/"
+   ],
+   "remote_feature": false,
+   "rover_at_or_before_sol": {
+    "sol": 4621,
+    "site": 118,
+    "drive": 372,
+    "lat": -4.80541391,
+    "lon": 137.3795125,
+    "easting": 8143129.051,
+    "northing": -284839.456,
+    "elev_geoid": -3620.089
+   },
+   "rover_start_of_plan": {
+    "sol": 4621,
+    "site": 118,
+    "drive": 372,
+    "lat": -4.80541391,
+    "lon": 137.3795125,
+    "easting": 8143129.051,
+    "northing": -284839.456,
+    "elev_geoid": -3620.089
+   }
+  },
+  {
+   "name": "Ayopaya",
+   "kind": "intersecting 'peace-sign-shaped' ridges",
+   "sol": null,
+   "post_sols": "4624-4626",
+   "date": null,
+   "what": "Mastcam mosaic.",
+   "sources": [
+    "https://science.nasa.gov/blog/curiosity-blog-sols-4624-4626-a-busy-weekend-at-the-boxwork/"
+   ],
+   "remote_feature": false,
+   "rover_at_or_before_sol": {
+    "sol": 4623,
+    "site": 118,
+    "drive": 534,
+    "lat": -4.80548391,
+    "lon": 137.3799173,
+    "easting": 8143153.043,
+    "northing": -284843.605,
+    "elev_geoid": -3621.591
+   },
+   "rover_start_of_plan": {
+    "sol": 4623,
+    "site": 118,
+    "drive": 534,
+    "lat": -4.80548391,
+    "lon": 137.3799173,
+    "easting": 8143153.043,
+    "northing": -284843.605,
+    "elev_geoid": -3621.591
+   }
+  },
+  {
+   "name": "Laguna Miniques",
+   "kind": "potential incipient hollow",
+   "sol": null,
+   "post_sols": "4627-4628",
+   "date": null,
+   "what": "Mastcam.",
+   "sources": [
+    "https://science.nasa.gov/blog/curiosity-blog-sols-4627-4628-a-ridge-stop-in-the-boxworks/"
+   ],
+   "remote_feature": false,
+   "rover_at_or_before_sol": {
+    "sol": 4625,
+    "site": 118,
+    "drive": 762,
+    "lat": -4.80585913,
+    "lon": 137.3797583,
+    "easting": 8143143.62,
+    "northing": -284865.846,
+    "elev_geoid": -3617.654
+   },
+   "rover_start_of_plan": {
+    "sol": 4625,
+    "site": 118,
+    "drive": 762,
+    "lat": -4.80585913,
+    "lon": 137.3797583,
+    "easting": 8143143.62,
+    "northing": -284865.846,
+    "elev_geoid": -3617.654
+   }
+  },
+  {
+   "name": "Asiruqucha",
+   "kind": "light-toned, small-scale nodular bedrock",
+   "sol": null,
+   "post_sols": "4629-4630",
+   "date": null,
+   "what": "APXS.",
+   "sources": [
+    "https://science.nasa.gov/blog/curiosity-blog-sols-4629-4630-feeling-hollow/"
+   ],
+   "remote_feature": false,
+   "rover_at_or_before_sol": {
+    "sol": 4629,
+    "site": 118,
+    "drive": 1194,
+    "lat": -4.80616679,
+    "lon": 137.379723,
+    "easting": 8143141.528,
+    "northing": -284884.083,
+    "elev_geoid": -3613.975
+   },
+   "rover_start_of_plan": {
+    "sol": 4628,
+    "site": 118,
+    "drive": 924,
+    "lat": -4.80599016,
+    "lon": 137.3794602,
+    "easting": 8143125.951,
+    "northing": -284873.613,
+    "elev_geoid": -3613.896
+   }
+  },
+  {
+   "name": "Rio Frio",
+   "kind": "prominent resistant ridge (wall imaged before arrival)",
+   "sol": null,
+   "post_sols": "4634-4635",
+   "date": null,
+   "what": "Cusi Cusi = narrow sand-filled trough nearby.",
+   "sources": [
+    "https://science.nasa.gov/blog/curiosity-blog-sols-4634-4635-a-waiting-game/",
+    "https://science.nasa.gov/blog/curiosity-blog-sols-4636-4637-up-against-a-wall/",
+    "https://science.nasa.gov/blog/curiosity-blog-sols-4638-4640-imaging-extravaganza-atop-a-ridge/"
+   ],
+   "remote_feature": false,
+   "rover_at_or_before_sol": {
+    "sol": 4634,
+    "site": 118,
+    "drive": 1608,
+    "lat": -4.80635617,
+    "lon": 137.3791167,
+    "easting": 8143105.591,
+    "northing": -284895.308,
+    "elev_geoid": -3609.909
+   },
+   "rover_start_of_plan": {
+    "sol": 4633,
+    "site": 118,
+    "drive": 1350,
+    "lat": -4.80645796,
+    "lon": 137.3796739,
+    "easting": 8143138.615,
+    "northing": -284901.342,
+    "elev_geoid": -3611.188
+   }
+  },
+  {
+   "name": "Minimini / El Tapado",
+   "kind": "nodule-filled target (APXS) and a vein (LIBS) at the Rio Frio ridge wall",
+   "sol": 4636,
+   "post_sols": "4636-4637",
+   "date": "2025-08-21",
+   "what": "MAHLI pea-sized nodule image on sol 4636 (PIA26697).",
+   "sources": [
+    "https://science.nasa.gov/blog/curiosity-blog-sols-4636-4637-up-against-a-wall/",
+    "https://www.jpl.nasa.gov/images/pia26697-curiosity-studies-nodules-on-boxwork-formations/"
+   ],
+   "remote_feature": false,
+   "rover_at_or_before_sol": {
+    "sol": 4636,
+    "site": 118,
+    "drive": 1752,
+    "lat": -4.80653823,
+    "lon": 137.3793381,
+    "easting": 8143118.71,
+    "northing": -284906.1,
+    "elev_geoid": -3607.128
+   },
+   "rover_start_of_plan": {
+    "sol": 4634,
+    "site": 118,
+    "drive": 1608,
+    "lat": -4.80635617,
+    "lon": 137.3791167,
+    "easting": 8143105.591,
+    "northing": -284895.308,
+    "elev_geoid": -3609.909
+   }
+  },
+  {
+   "name": "Samaipata / Wallatiri / Mojo",
+   "kind": "boxwork structures around the rover; Mojo = hollow",
+   "sol": null,
+   "post_sols": "4638-4640",
+   "date": null,
+   "what": "Mastcam + MAHLI + APXS (Vitichi, Tartagalita).",
+   "sources": [
+    "https://science.nasa.gov/blog/curiosity-blog-sols-4638-4640-imaging-extravaganza-atop-a-ridge/",
+    "https://science.nasa.gov/blog/curiosity-blog-sols-4641-4648-thinking-outside-and-inside-the-boxwork/"
+   ],
+   "remote_feature": false,
+   "rover_at_or_before_sol": {
+    "sol": 4636,
+    "site": 118,
+    "drive": 1752,
+    "lat": -4.80653823,
+    "lon": 137.3793381,
+    "easting": 8143118.71,
+    "northing": -284906.1,
+    "elev_geoid": -3607.128
+   },
+   "rover_start_of_plan": {
+    "sol": 4636,
+    "site": 118,
+    "drive": 1752,
+    "lat": -4.80653823,
+    "lon": 137.3793381,
+    "easting": 8143118.71,
+    "northing": -284906.1,
+    "elev_geoid": -3607.128
+   }
+  },
+  {
+   "name": "Tarapaca",
+   "kind": "regolith target inside a hollow (no bedrock in workspace)",
+   "sol": null,
+   "post_sols": "4641-4648",
+   "date": null,
+   "what": "MAHLI + APXS; 12 m drive out of the hollow was challenging.",
+   "sources": [
+    "https://science.nasa.gov/blog/curiosity-blog-sols-4641-4648-thinking-outside-and-inside-the-boxwork/"
+   ],
+   "remote_feature": false,
+   "rover_at_or_before_sol": {
+    "sol": 4641,
+    "site": 118,
+    "drive": 1944,
+    "lat": -4.80669051,
+    "lon": 137.3793537,
+    "easting": 8143119.635,
+    "northing": -284915.126,
+    "elev_geoid": -3608.108
+   },
+   "rover_start_of_plan": {
+    "sol": 4639,
+    "site": 118,
+    "drive": 1776,
+    "lat": -4.80655332,
+    "lon": 137.3793171,
+    "easting": 8143117.469,
+    "northing": -284906.994,
+    "elev_geoid": -3606.72
+   }
+  },
+  {
+   "name": "Laguna Colorada / Jorginho Cove",
+   "kind": "ridge/hollow pair; ridge the rover was parked on plus next hollow south",
+   "sol": null,
+   "post_sols": "4641-4648",
+   "date": null,
+   "what": "Mastcam mosaics.",
+   "sources": [
+    "https://science.nasa.gov/blog/curiosity-blog-sols-4641-4648-thinking-outside-and-inside-the-boxwork/"
+   ],
+   "remote_feature": false,
+   "rover_at_or_before_sol": {
+    "sol": 4641,
+    "site": 118,
+    "drive": 1944,
+    "lat": -4.80669051,
+    "lon": 137.3793537,
+    "easting": 8143119.635,
+    "northing": -284915.126,
+    "elev_geoid": -3608.108
+   },
+   "rover_start_of_plan": {
+    "sol": 4639,
+    "site": 118,
+    "drive": 1776,
+    "lat": -4.80655332,
+    "lon": 137.3793171,
+    "easting": 8143117.469,
+    "northing": -284906.994,
+    "elev_geoid": -3606.72
+   }
+  },
+  {
+   "name": "Ridge-to-hollow nodular transition",
+   "kind": "smooth ridge bedrock grading to nodular bedrock at a shallow hollow edge (unnamed)",
+   "sol": 4650,
+   "post_sols": "4649-4654",
+   "date": "2025-09-05",
+   "what": "Navcam sol 4650; same measurements repeated on smooth vs nodular bedrock.",
+   "sources": [
+    "https://science.nasa.gov/blog/curiosity-blog-sols-4649-4654-ridges-hollows-and-nodules-oh-my/"
+   ],
+   "remote_feature": false,
+   "rover_at_or_before_sol": {
+    "sol": 4650,
+    "site": 118,
+    "drive": 2304,
+    "lat": -4.8068928,
+    "lon": 137.3798418,
+    "easting": 8143148.57,
+    "northing": -284927.117,
+    "elev_geoid": -3610.513
+   },
+   "rover_start_of_plan": {
+    "sol": 4647,
+    "site": 118,
+    "drive": 2268,
+    "lat": -4.80689063,
+    "lon": 137.3798121,
+    "easting": 8143146.811,
+    "northing": -284926.988,
+    "elev_geoid": -3610.488
+   }
+  },
+  {
+   "name": "Quechua / Chaco",
+   "kind": "bedrock ridge (Quechua) and a raised resistant bedrock feature (Chaco)",
+   "sol": null,
+   "post_sols": "4655-4660",
+   "date": null,
+   "what": "ChemCam LIBS; hollow walls mosaicked.",
+   "sources": [
+    "https://science.nasa.gov/blog/curiosity-blog-sols-4655-4660-boxworks-with-a-view/"
+   ],
+   "remote_feature": false,
+   "rover_at_or_before_sol": {
+    "sol": 4655,
+    "site": 118,
+    "drive": 2538,
+    "lat": -4.80716832,
+    "lon": 137.3798956,
+    "easting": 8143151.757,
+    "northing": -284943.448,
+    "elev_geoid": -3607.704
+   },
+   "rover_start_of_plan": {
+    "sol": 4653,
+    "site": 118,
+    "drive": 2466,
+    "lat": -4.80708025,
+    "lon": 137.3798962,
+    "easting": 8143151.792,
+    "northing": -284938.228,
+    "elev_geoid": -3607.997
+   }
+  },
+  {
+   "name": "Boxwork panorama (PIA26693)",
+   "kind": "179-image Mastcam panorama of ridges and hollows",
+   "sol": 4671,
+   "post_sols": null,
+   "date": "2025-09-26",
+   "what": "Taken sol 4671.",
+   "sources": [
+    "https://www.jpl.nasa.gov/images/pia26693-curiosity-surveys-the-boxwork-region/"
+   ],
+   "remote_feature": false,
+   "rover_at_or_before_sol": {
+    "sol": 4671,
+    "site": 119,
+    "drive": 486,
+    "lat": -4.80827103,
+    "lon": 137.3812695,
+    "easting": 8143233.195,
+    "northing": -285008.811,
+    "elev_geoid": -3608.263
+   },
+   "rover_start_of_plan": {
+    "sol": 4669,
+    "site": 119,
+    "drive": 198,
+    "lat": -4.80805222,
+    "lon": 137.380883,
+    "easting": 8143210.284,
+    "northing": -284995.841,
+    "elev_geoid": -3606.525
+   }
+  },
+  {
+   "name": "Autobahn",
+   "kind": "one of the bigger ridges",
+   "sol": null,
+   "post_sols": "4661-4667",
+   "date": null,
+   "what": "Driving route along ridges.",
+   "sources": [
+    "https://science.nasa.gov/blog/curiosity-blog-sols-4661-4667-peaking-into-the-hollows/"
+   ],
+   "remote_feature": false,
+   "rover_at_or_before_sol": {
+    "sol": 4660,
+    "site": 118,
+    "drive": 2742,
+    "lat": -4.80745212,
+    "lon": 137.3800604,
+    "easting": 8143161.524,
+    "northing": -284960.27,
+    "elev_geoid": -3605.483
+   },
+   "rover_start_of_plan": {
+    "sol": 4660,
+    "site": 118,
+    "drive": 2742,
+    "lat": -4.80745212,
+    "lon": 137.3800604,
+    "easting": 8143161.524,
+    "northing": -284960.27,
+    "elev_geoid": -3605.483
+   }
+  },
+  {
+   "name": "Laguna Escondida / Laguna Socompa",
+   "kind": "two hollows on either side of the ridge",
+   "sol": null,
+   "post_sols": "4668-4674",
+   "date": null,
+   "what": "Scouted as hollow drill sites.",
+   "sources": [
+    "https://science.nasa.gov/blog/curiosity-blog-sols-4668-4674-winding-our-way-along/"
+   ],
+   "remote_feature": false,
+   "rover_at_or_before_sol": {
+    "sol": 4667,
+    "site": 119,
+    "drive": 0,
+    "lat": -4.80802327,
+    "lon": 137.3805074,
+    "easting": 8143188.021,
+    "northing": -284994.125,
+    "elev_geoid": -3604.77
+   },
+   "rover_start_of_plan": {
+    "sol": 4667,
+    "site": 119,
+    "drive": 0,
+    "lat": -4.80802327,
+    "lon": 137.3805074,
+    "easting": 8143188.021,
+    "northing": -284994.125,
+    "elev_geoid": -3604.77
+   }
+  },
+  {
+   "name": "Monte Grande",
+   "kind": "large hollow; site of the Valle de la Luna drill and later polygon block",
+   "sol": null,
+   "post_sols": "4675-4681",
+   "date": null,
+   "what": "Chosen hollow drill site (bedrock exposed). Revisited sols 4743-4749.",
+   "sources": [
+    "https://science.nasa.gov/blog/curiosity-blog-sols-4675-4681-deciding-where-to-dig-into-the-boxworks/",
+    "https://science.nasa.gov/blog/curiosity-blog-sols-4682-4688-seven-mars-years/",
+    "https://science.nasa.gov/blog/curiosity-blog-sols-4689-4694-drill-in-the-boxwork-unit-is-go/",
+    "https://science.nasa.gov/blog/curiosity-blog-sols-4743-4749-polygons-in-the-hollow/"
+   ],
+   "remote_feature": false,
+   "rover_at_or_before_sol": {
+    "sol": 4673,
+    "site": 119,
+    "drive": 846,
+    "lat": -4.80871606,
+    "lon": 137.3815696,
+    "easting": 8143250.985,
+    "northing": -285035.19,
+    "elev_geoid": -3606.57
+   },
+   "rover_start_of_plan": {
+    "sol": 4673,
+    "site": 119,
+    "drive": 846,
+    "lat": -4.80871606,
+    "lon": 137.3815696,
+    "easting": 8143250.985,
+    "northing": -285035.19,
+    "elev_geoid": -3606.57
+   }
+  },
+  {
+   "name": "Pachica",
+   "kind": "block with many nodules",
+   "sol": null,
+   "post_sols": "4702-4708",
+   "date": null,
+   "what": "ChemCam LIBS for nodule chemical variability.",
+   "sources": [
+    "https://science.nasa.gov/blog/curiosity-blog-sols-4702-4708-its-only-spooky-here-on-earth-today/"
+   ],
+   "remote_feature": false,
+   "rover_at_or_before_sol": {
+    "sol": 4687,
+    "site": 119,
+    "drive": 1722,
+    "lat": -4.80783916,
+    "lon": 137.3810353,
+    "easting": 8143219.316,
+    "northing": -284983.212,
+    "elev_geoid": -3610.432
+   },
+   "rover_start_of_plan": {
+    "sol": 4687,
+    "site": 119,
+    "drive": 1722,
+    "lat": -4.80783916,
+    "lon": 137.3810353,
+    "easting": 8143219.316,
+    "northing": -284983.212,
+    "elev_geoid": -3610.432
+   }
+  },
+  {
+   "name": "Arenas Blancas / Camarones / Exaltacion",
+   "kind": "veins on the ridge near Nevado Sajama",
+   "sol": null,
+   "post_sols": "4716-4722",
+   "date": null,
+   "what": "'more insight into the fluids that penetrated the boxwork ridges, perhaps contributing to their erosion resistance'.",
+   "sources": [
+    "https://science.nasa.gov/blog/curiosity-blog-sols-4716-4722-drilling-success-at-nevado-sajama/"
+   ],
+   "remote_feature": false,
+   "rover_at_or_before_sol": {
+    "sol": 4711,
+    "site": 120,
+    "drive": 82,
+    "lat": -4.80800755,
+    "lon": 137.3810041,
+    "easting": 8143217.465,
+    "northing": -284993.193,
+    "elev_geoid": -3607.722
+   },
+   "rover_start_of_plan": {
+    "sol": 4711,
+    "site": 120,
+    "drive": 82,
+    "lat": -4.80800755,
+    "lon": 137.3810041,
+    "easting": 8143217.465,
+    "northing": -284993.193,
+    "elev_geoid": -3607.722
+   }
+  },
+  {
+   "name": "Monte Grande polygon block",
+   "kind": "polygon-covered, rubbly block on the hollow floor next to Valle de la Luna",
+   "sol": null,
+   "post_sols": "4743-4749",
+   "date": null,
+   "what": "Super-sized MAHLI mosaic for 3D model; APXS/LIBS on polygon centers vs ridges; scuffed light-toned bedrock.",
+   "sources": [
+    "https://science.nasa.gov/blog/curiosity-blog-sols-4743-4749-polygons-in-the-hollow/"
+   ],
+   "remote_feature": false,
+   "rover_at_or_before_sol": {
+    "sol": 4741,
+    "site": 120,
+    "drive": 232,
+    "lat": -4.80776275,
+    "lon": 137.3810137,
+    "easting": 8143218.032,
+    "northing": -284978.683,
+    "elev_geoid": -3611.533
+   },
+   "rover_start_of_plan": {
+    "sol": 4741,
+    "site": 120,
+    "drive": 232,
+    "lat": -4.80776275,
+    "lon": 137.3810137,
+    "easting": 8143218.032,
+    "northing": -284978.683,
+    "elev_geoid": -3611.533
+   }
+  },
+  {
+   "name": "Altiplano",
+   "kind": "ridge with a central fracture; ridge-wall transect between the two drill holes",
+   "sol": null,
+   "post_sols": "4750-4762",
+   "date": null,
+   "what": "Chemistry + imaging of the wall from Valle de la Luna (hollow) to Nevado Sajama (ridge).",
+   "sources": [
+    "https://science.nasa.gov/blog/curiosity-blog-sols-4750-4762-see-you-on-the-other-side-of-the-sun/"
+   ],
+   "remote_feature": false,
+   "rover_at_or_before_sol": {
+    "sol": 4748,
+    "site": 120,
+    "drive": 346,
+    "lat": -4.80790799,
+    "lon": 137.3811194,
+    "easting": 8143224.299,
+    "northing": -284987.292,
+    "elev_geoid": -3610.29
+   },
+   "rover_start_of_plan": {
+    "sol": 4748,
+    "site": 120,
+    "drive": 346,
+    "lat": -4.80790799,
+    "lon": 137.3811194,
+    "easting": 8143224.299,
+    "northing": -284987.292,
+    "elev_geoid": -3610.29
+   }
+  },
+  {
+   "name": "Tiquipaya",
+   "kind": "rock broken by the wheels, exposing bright white material",
+   "sol": null,
+   "post_sols": "4798-4803",
+   "date": null,
+   "what": "ChemCam LIBS.",
+   "sources": [
+    "https://science.nasa.gov/blog/curiosity-blog-sols-4798-4803-back-for-more-science/"
+   ],
+   "remote_feature": false,
+   "rover_at_or_before_sol": {
+    "sol": 4789,
+    "site": 120,
+    "drive": 574,
+    "lat": -4.80800539,
+    "lon": 137.3809924,
+    "easting": 8143216.772,
+    "northing": -284993.065,
+    "elev_geoid": -3608.018
+   },
+   "rover_start_of_plan": {
+    "sol": 4789,
+    "site": 120,
+    "drive": 574,
+    "lat": -4.80800539,
+    "lon": 137.3809924,
+    "easting": 8143216.772,
+    "northing": -284993.065,
+    "elev_geoid": -3608.018
+   }
+  },
+  {
+   "name": "Los Flamencos",
+   "kind": "narrow ridge with many small branching ridges (and a hollow with interesting floor bedrock seen from orbit)",
+   "sol": null,
+   "post_sols": "4804-4811",
+   "date": null,
+   "what": "Phase 4 (final look, contacts) starts sol 4805.",
+   "sources": [
+    "https://science.nasa.gov/blog/curiosity-blog-sols-4804-4811-kicking-off-the-final-phase-of-boxwork-exploration/",
+    "https://science.nasa.gov/blog/curiosity-blog-sols-4812-4817-back-into-the-hollows/"
+   ],
+   "remote_feature": false,
+   "rover_at_or_before_sol": {
+    "sol": 4789,
+    "site": 120,
+    "drive": 574,
+    "lat": -4.80800539,
+    "lon": 137.3809924,
+    "easting": 8143216.772,
+    "northing": -284993.065,
+    "elev_geoid": -3608.018
+   },
+   "rover_start_of_plan": {
+    "sol": 4789,
+    "site": 120,
+    "drive": 574,
+    "lat": -4.80800539,
+    "lon": 137.3809924,
+    "easting": 8143216.772,
+    "northing": -284993.065,
+    "elev_geoid": -3608.018
+   }
+  },
+  {
+   "name": "Tapiche",
+   "kind": "hollow where the rover parked",
+   "sol": null,
+   "post_sols": "4812-4817",
+   "date": null,
+   "what": "Mosaics deeper into the hollow.",
+   "sources": [
+    "https://science.nasa.gov/blog/curiosity-blog-sols-4812-4817-back-into-the-hollows/"
+   ],
+   "remote_feature": false,
+   "rover_at_or_before_sol": {
+    "sol": 4810,
+    "site": 120,
+    "drive": 1042,
+    "lat": -4.8075379,
+    "lon": 137.3815047,
+    "easting": 8143247.139,
+    "northing": -284965.355,
+    "elev_geoid": -3613.194
+   },
+   "rover_start_of_plan": {
+    "sol": 4810,
+    "site": 120,
+    "drive": 1042,
+    "lat": -4.8075379,
+    "lon": 137.3815047,
+    "easting": 8143247.139,
+    "northing": -284965.355,
+    "elev_geoid": -3613.194
+   }
+  },
+  {
+   "name": "Infiernillo / Humahuaca",
+   "kind": "bedrock at the eastern extent of the boxwork unit; nodule-rich bedrock",
+   "sol": null,
+   "post_sols": "4825-4831",
+   "date": null,
+   "what": "DRT + APXS + MAHLI; LIBS.",
+   "sources": [
+    "https://science.nasa.gov/blog/curiosity-blog-sols-4825-4831-exploring-the-borderlands/"
+   ],
+   "remote_feature": false,
+   "rover_at_or_before_sol": {
+    "sol": 4823,
+    "site": 120,
+    "drive": 2192,
+    "lat": -4.80788259,
+    "lon": 137.3826281,
+    "easting": 8143313.728,
+    "northing": -284985.786,
+    "elev_geoid": -3616.256
+   },
+   "rover_start_of_plan": {
+    "sol": 4823,
+    "site": 120,
+    "drive": 2192,
+    "lat": -4.80788259,
+    "lon": 137.3826281,
+    "easting": 8143313.728,
+    "northing": -284985.786,
+    "elev_geoid": -3616.256
+   }
+  },
+  {
+   "name": "Timboy Chaco",
+   "kind": "pitted vertical rock face",
+   "sol": 4827,
+   "post_sols": "4825-4831",
+   "date": "2026-03-05",
+   "what": "MAHLI merge sol 4827.",
+   "sources": [
+    "https://science.nasa.gov/blog/curiosity-blog-sols-4825-4831-exploring-the-borderlands/"
+   ],
+   "remote_feature": false,
+   "rover_at_or_before_sol": {
+    "sol": 4827,
+    "site": 120,
+    "drive": 2366,
+    "lat": -4.80813306,
+    "lon": 137.3828539,
+    "easting": 8143327.108,
+    "northing": -285000.633,
+    "elev_geoid": -3615.48
+   },
+   "rover_start_of_plan": {
+    "sol": 4823,
+    "site": 120,
+    "drive": 2192,
+    "lat": -4.80788259,
+    "lon": 137.3826281,
+    "easting": 8143313.728,
+    "northing": -284985.786,
+    "elev_geoid": -3616.256
+   }
+  },
+  {
+   "name": "Thola",
+   "kind": "dark float rock, possible stony meteorite",
+   "sol": null,
+   "post_sols": "4825-4831",
+   "date": null,
+   "what": "APXS + MAHLI + ChemCam reflectance.",
+   "sources": [
+    "https://science.nasa.gov/blog/curiosity-blog-sols-4825-4831-exploring-the-borderlands/"
+   ],
+   "remote_feature": false,
+   "rover_at_or_before_sol": {
+    "sol": 4823,
+    "site": 120,
+    "drive": 2192,
+    "lat": -4.80788259,
+    "lon": 137.3826281,
+    "easting": 8143313.728,
+    "northing": -284985.786,
+    "elev_geoid": -3616.256
+   },
+   "rover_start_of_plan": {
+    "sol": 4823,
+    "site": 120,
+    "drive": 2192,
+    "lat": -4.80788259,
+    "lon": 137.3826281,
+    "easting": 8143313.728,
+    "northing": -284985.786,
+    "elev_geoid": -3616.256
+   }
+  },
+  {
+   "name": "El Misti / Yungas",
+   "kind": "southern contact between boxworks and layered sulfate unit (19x3 mosaic); highly veined area",
+   "sol": null,
+   "post_sols": "4832-4837",
+   "date": null,
+   "what": "Mastcam mosaics along the contact.",
+   "sources": [
+    "https://science.nasa.gov/blog/curiosity-blog-sols-4832-4837-driving-the-contact-line/",
+    "https://science.nasa.gov/blog/curiosity-blog-sols-4838-4844-wrapping-up-the-boxwork-terrain/"
+   ],
+   "remote_feature": false,
+   "rover_at_or_before_sol": {
+    "sol": 4830,
+    "site": 120,
+    "drive": 2726,
+    "lat": -4.80882201,
+    "lon": 137.3826516,
+    "easting": 8143315.118,
+    "northing": -285041.47,
+    "elev_geoid": -3609.236
+   },
+   "rover_start_of_plan": {
+    "sol": 4830,
+    "site": 120,
+    "drive": 2726,
+    "lat": -4.80882201,
+    "lon": 137.3826516,
+    "easting": 8143315.118,
+    "northing": -285041.47,
+    "elev_geoid": -3609.236
+   }
+  },
+  {
+   "name": "Toro Wharku / Sierra Gorda / Santa Laura",
+   "kind": "last boxwork-unit workspaces: brushed bedrock, layered bedrock, dark ridge",
+   "sol": null,
+   "post_sols": "4838-4844",
+   "date": null,
+   "what": "'Wrapping Up the Boxwork Terrain'.",
+   "sources": [
+    "https://science.nasa.gov/blog/curiosity-blog-sols-4838-4844-wrapping-up-the-boxwork-terrain/"
+   ],
+   "remote_feature": false,
+   "rover_at_or_before_sol": {
+    "sol": 4837,
+    "site": 121,
+    "drive": 156,
+    "lat": -4.80971635,
+    "lon": 137.3823585,
+    "easting": 8143297.743,
+    "northing": -285094.482,
+    "elev_geoid": -3603.622
+   },
+   "rover_start_of_plan": {
+    "sol": 4837,
+    "site": 121,
+    "drive": 156,
+    "lat": -4.80971635,
+    "lon": 137.3823585,
+    "easting": 8143297.743,
+    "northing": -285094.482,
+    "elev_geoid": -3603.622
+   }
+  },
+  {
+   "name": "Southern contact crossing / Santa Rosa",
+   "kind": "layered sulfate unit bedrock just across the southernmost boxwork contact (third contact crossing)",
+   "sol": 4845,
+   "post_sols": "4845-4851",
+   "date": null,
+   "what": "'Last weekend's drive took us just over the southernmost contact' (weekend plan sols 4842-4844, waypoint sol 4844); rover repositioned to brush Santa Rosa; Piedra Colgada = fine nodules eroded from bedrock; Wednesday's ~50 m drive (waypoint 4848) reached polygonal resistant ridges (Ocharaza, Nevado Tres Cruces). Navcam of polygonal sulfate unit sol 4848.",
+   "sources": [
+    "https://science.nasa.gov/blog/curiosity-blog-sols-4845-4851-bye-bye-boxwork-bye-bye/"
+   ],
+   "remote_feature": false,
+   "rover_at_or_before_sol": {
+    "sol": 4845,
+    "site": 121,
+    "drive": 990,
+    "lat": -4.81060029,
+    "lon": 137.3816452,
+    "easting": 8143255.466,
+    "northing": -285146.877,
+    "elev_geoid": -3593.697
+   },
+   "rover_start_of_plan": {
+    "sol": 4844,
+    "site": 121,
+    "drive": 876,
+    "lat": -4.81053581,
+    "lon": 137.3816768,
+    "easting": 8143257.338,
+    "northing": -285143.055,
+    "elev_geoid": -3595.451
+   }
+  },
+  {
+   "name": "Antofagasta",
+   "kind": "small crater ~10 m across, possibly <50 Myr old",
+   "sol": null,
+   "post_sols": "4859-4866",
+   "date": null,
+   "what": "Team decided against drilling in or around it (sand fill).",
+   "sources": [
+    "https://science.nasa.gov/blog/curiosity-blog-sols-4859-4866-one-small-crater-and-thousands-of-polygons/",
+    "https://science.nasa.gov/blog/curiosity-blog-sols-4867-4872-sand-fill-in-antofagasta-crater-and-finding-our-next-drill-target/"
+   ],
+   "remote_feature": false,
+   "rover_at_or_before_sol": {
+    "sol": 4857,
+    "site": 121,
+    "drive": 2202,
+    "lat": -4.81316906,
+    "lon": 137.3818456,
+    "easting": 8143267.344,
+    "northing": -285299.14,
+    "elev_geoid": -3578.401
+   },
+   "rover_start_of_plan": {
+    "sol": 4857,
+    "site": 121,
+    "drive": 2202,
+    "lat": -4.81316906,
+    "lon": 137.3818456,
+    "easting": 8143267.344,
+    "northing": -285299.14,
+    "elev_geoid": -3578.401
+   }
+  },
+  {
+   "name": "Erosional supersurface",
+   "kind": "possible regional erosional surface: light-toned rocks under dark rocks",
+   "sol": 4963,
+   "post_sols": "4961-4967",
+   "date": "2026-07-23",
+   "what": "Navcam sol 4963; Monte Darwin (APXS) at its base; Cerro Paine Grande vertical exposure below it.",
+   "sources": [
+    "https://science.nasa.gov/blog/curiosity-blog-sols-4961-4967-approaching-a-break-in-the-rock-record/",
+    "https://science.nasa.gov/blog/curiosity-blog-sols-4968-4974-rock-climbing-towards-the-discontinuity/"
+   ],
+   "remote_feature": false,
+   "rover_at_or_before_sol": {
+    "sol": 4963,
+    "site": 123,
+    "drive": 2544,
+    "lat": -4.82018328,
+    "lon": 137.3854043,
+    "easting": 8143478.285,
+    "northing": -285714.906,
+    "elev_geoid": -3528.521
+   },
+   "rover_start_of_plan": {
+    "sol": 4959,
+    "site": 123,
+    "drive": 2328,
+    "lat": -4.81991106,
+    "lon": 137.3850737,
+    "easting": 8143458.688,
+    "northing": -285698.77,
+    "elev_geoid": -3531.088
+   }
+  },
+  {
+   "name": "Chiu Chiu / Salar de Vacas",
+   "kind": "blocks full of disc-shaped lumps 3-4 mm across, ~1 mm thick",
+   "sol": null,
+   "post_sols": "5016-5021",
+   "date": null,
+   "what": "Possible crystal growth habit or broken-up harder layer; first imaged in the sol 5010-5015 plans.",
+   "sources": [
+    "https://science.nasa.gov/blog/curiosity-blog-sols-5016-5021-fantastic-minerals-and-how-to-detect-them/",
+    "https://science.nasa.gov/blog/curiosity-blog-sols-5010-5015-checking-out-the-bands/"
+   ],
+   "remote_feature": false,
+   "rover_at_or_before_sol": {
+    "sol": 5016,
+    "site": 125,
+    "drive": 198,
+    "lat": -4.8246039,
+    "lon": 137.3884767,
+    "easting": 8143660.397,
+    "northing": -285976.937,
+    "elev_geoid": -3484.839
+   },
+   "rover_start_of_plan": {
+    "sol": 5014,
+    "site": 125,
+    "drive": 0,
+    "lat": -4.8246287,
+    "lon": 137.3881211,
+    "easting": 8143639.323,
+    "northing": -285978.407,
+    "elev_geoid": -3486.334
+   }
+  },
+  {
+   "name": "Toucan",
+   "kind": "crystal-form-rich target near Nazca",
+   "sol": null,
+   "post_sols": "5043-5049",
+   "date": null,
+   "what": "LIBS depth profile.",
+   "sources": [
+    "https://science.nasa.gov/blog/curiosity-blog-sols-5043-5049-preparing-to-drill-at-nazca/"
+   ],
+   "remote_feature": false,
+   "rover_at_or_before_sol": {
+    "sol": 5041,
+    "site": 125,
+    "drive": 1194,
+    "lat": -4.82458563,
+    "lon": 137.3877779,
+    "easting": 8143618.98,
+    "northing": -285975.854,
+    "elev_geoid": -3488.313
+   },
+   "rover_start_of_plan": {
+    "sol": 5041,
+    "site": 125,
+    "drive": 1194,
+    "lat": -4.82458563,
+    "lon": 137.3877779,
+    "easting": 8143618.98,
+    "northing": -285975.854,
+    "elev_geoid": -3488.313
+   }
+  },
+  {
+   "name": "Mishe Mokwa",
+   "kind": "butte (remote; imaged throughout the campaign)",
+   "sol": null,
+   "post_sols": "4500-4501",
+   "date": null,
+   "what": "RMI and Mastcam of its stratigraphy.",
+   "sources": [
+    "https://science.nasa.gov/blog/sols-4500-4501-bedrock-with-a-side-of-sand/"
+   ],
+   "remote_feature": true,
+   "rover_at_or_before_sol": {
+    "sol": 4500,
+    "site": 114,
+    "drive": 2472,
+    "lat": -4.79356808,
+    "lon": 137.3895793,
+    "easting": 8143725.758,
+    "northing": -284137.298,
+    "elev_geoid": -3689.38
+   },
+   "rover_start_of_plan": {
+    "sol": 4498,
+    "site": 114,
+    "drive": 2292,
+    "lat": -4.79360768,
+    "lon": 137.3899052,
+    "easting": 8143745.073,
+    "northing": -284139.645,
+    "elev_geoid": -3689.711
+   }
+  },
+  {
+   "name": "Texoli",
+   "kind": "butte (remote)",
+   "sol": null,
+   "post_sols": "4502-4504",
+   "date": null,
+   "what": "RMI mosaics.",
+   "sources": [
+    "https://science.nasa.gov/blog/sols-4502-4504-sneaking-past-devils-gate/"
+   ],
+   "remote_feature": true,
+   "rover_at_or_before_sol": {
+    "sol": 4500,
+    "site": 114,
+    "drive": 2472,
+    "lat": -4.79356808,
+    "lon": 137.3895793,
+    "easting": 8143725.758,
+    "northing": -284137.298,
+    "elev_geoid": -3689.38
+   },
+   "rover_start_of_plan": {
+    "sol": 4500,
+    "site": 114,
+    "drive": 2472,
+    "lat": -4.79356808,
+    "lon": 137.3895793,
+    "easting": 8143725.758,
+    "northing": -284137.298,
+    "elev_geoid": -3689.38
+   }
+  },
+  {
+   "name": "Paniri",
+   "kind": "butte (remote); also an incision filled with another material",
+   "sol": null,
+   "post_sols": "4595-4596",
+   "date": null,
+   "what": "RMI.",
+   "sources": [
+    "https://science.nasa.gov/blog/curiosity-blog-sols-4595-4596-just-another-beautiful-day-on-mars/",
+    "https://science.nasa.gov/blog/curiosity-blog-sols-4614-4615-driving-along-the-boxwork/"
+   ],
+   "remote_feature": true,
+   "rover_at_or_before_sol": {
+    "sol": 4594,
+    "site": 117,
+    "drive": 1434,
+    "lat": -4.802963,
+    "lon": 137.3804319,
+    "easting": 8143183.545,
+    "northing": -284694.179,
+    "elev_geoid": -3642.423
+   },
+   "rover_start_of_plan": {
+    "sol": 4594,
+    "site": 117,
+    "drive": 1434,
+    "lat": -4.802963,
+    "lon": 137.3804319,
+    "easting": 8143183.545,
+    "northing": -284694.179,
+    "elev_geoid": -3642.423
+   }
+  },
+  {
+   "name": "Valle Grande",
+   "kind": "named valley the rover climbs after the boxwork (region)",
+   "sol": null,
+   "post_sols": "4804-4811",
+   "date": null,
+   "what": "Route up Mount Sharp.",
+   "sources": [
+    "https://science.nasa.gov/blog/curiosity-blog-sols-4804-4811-kicking-off-the-final-phase-of-boxwork-exploration/"
+   ],
+   "remote_feature": true,
+   "rover_at_or_before_sol": {
+    "sol": 4789,
+    "site": 120,
+    "drive": 574,
+    "lat": -4.80800539,
+    "lon": 137.3809924,
+    "easting": 8143216.772,
+    "northing": -284993.065,
+    "elev_geoid": -3608.018
+   },
+   "rover_start_of_plan": {
+    "sol": 4789,
+    "site": 120,
+    "drive": 574,
+    "lat": -4.80800539,
+    "lon": 137.3809924,
+    "easting": 8143216.772,
+    "northing": -284993.065,
+    "elev_geoid": -3608.018
+   }
+  },
+  {
+   "name": "Kimsa Chata",
+   "kind": "butte (remote)",
+   "sol": null,
+   "post_sols": "4873-4878",
+   "date": null,
+   "what": "Mastcam.",
+   "sources": [
+    "https://science.nasa.gov/blog/curiosity-blog-sols-4873-4878-welcome-to-the-atacama-drill-target/",
+    "https://science.nasa.gov/blog/curiosity-blog-sols-4920-4926-surveying-the-bands/"
+   ],
+   "remote_feature": true,
+   "rover_at_or_before_sol": {
+    "sol": 4868,
+    "site": 122,
+    "drive": 0,
+    "lat": -4.8142672,
+    "lon": 137.3817063,
+    "easting": 8143259.087,
+    "northing": -285364.232,
+    "elev_geoid": -3570.45
+   },
+   "rover_start_of_plan": {
+    "sol": 4868,
+    "site": 122,
+    "drive": 0,
+    "lat": -4.8142672,
+    "lon": 137.3817063,
+    "easting": 8143259.087,
+    "northing": -285364.232,
+    "elev_geoid": -3570.45
+   }
+  },
+  {
+   "name": "Cordillera",
+   "kind": "mesa (remote)",
+   "sol": null,
+   "post_sols": "4934-4940",
+   "date": null,
+   "what": "RMI.",
+   "sources": [
+    "https://science.nasa.gov/blog/curiosity-blog-sols-4934-4940-in-the-land-of-the-polygons/"
+   ],
+   "remote_feature": true,
+   "rover_at_or_before_sol": {
+    "sol": 4932,
+    "site": 122,
+    "drive": 2352,
+    "lat": -4.81791731,
+    "lon": 137.3830992,
+    "easting": 8143341.651,
+    "northing": -285580.591,
+    "elev_geoid": -3546.361
+   },
+   "rover_start_of_plan": {
+    "sol": 4932,
+    "site": 122,
+    "drive": 2352,
+    "lat": -4.81791731,
+    "lon": 137.3830992,
+    "easting": 8143341.651,
+    "northing": -285580.591,
+    "elev_geoid": -3546.361
+   }
+  }
+ ]
+}

@@ -1,0 +1,14 @@
+# big baked data: regenerate with tools/cut_site.sh + tools/bake_site.py (hosted copy is public)
+app/data/dem1/
+app/data/ortho25/
+app/data/ortho_4096.jpg
+app/data/ortho_2048.jpg
+app/data/dem_2m.png
+app/data/dem_4m.png
+app/data/slope_2m.png
+app/data/pov/img/
+research/dl/
+research/pov/
+research/rems.json
+.DS_Store
+__pycache__/

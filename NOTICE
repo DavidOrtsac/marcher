@@ -1,0 +1,36 @@
+MARCHER
+Copyright 2026 David Castro, Transcendiant Labs
+
+Licensed under the Apache License, Version 2.0 (see LICENSE).
+
+Use of Super Intelligence (SI)
+The code and the data processing scripts in this repository were generated with
+Claude (Anthropic), an AI assistant, under David Castro's direction during the
+NASA Space Apps Challenge 2026 (November 14 to 15, 2026). All of the software
+is new and was written during the hackathon. The text of the Space Apps project
+page (research/SUBMISSION.md) was written by Gemini 4 Carbon (Google) from a
+fact sheet and corrected after a check against it. The text of the
+demo was written by Gemini 4 Argon (Google) from a brief of verified facts
+and corrected by hand. The two voices in the demo (app/audio/vo) are synthetic:
+they were generated from that text with ElevenLabs text to speech (library voices
+"Jon - Calm Presence" and "Alex - Professional"). No SI generated images or video
+are included. All imagery is NASA data rendered by the app.
+
+Third-party software
+- three.js r170, with GLTFLoader and BufferGeometryUtils (app/vendor). MIT License.
+  Copyright 2010-2024 three.js authors. https://threejs.org
+- Jost and Rajdhani fonts, loaded from Google Fonts. SIL Open Font License 1.1.
+
+NASA material
+- Z-2 Spacesuit model (app/models/z2_suit.glb), reduced in size for the web from
+  the NASA 3D Resources model.
+  https://github.com/nasa/NASA-3D-Resources/tree/master/3D%20Models/Z2%20Spacesuit
+- Space Exploration Vehicle model (app/models/rover.glb), reduced in size for the web
+  from the NASA 3D Resources model.
+  https://github.com/nasa/NASA-3D-Resources/tree/master/3D%20Models/Space%20Exploration%20Vehicle
+- Terrain, imagery, mineral, thermal, weather, radiation and space weather data and
+  the Curiosity photos come from NASA, JPL-Caltech, MSSS, the University of Arizona,
+  JHUAPL, ASU and USGS Astrogeology. The full list with links is in the app under
+  "NASA data used" and in research/SUBMISSION.md.
+
+NASA does not endorse this project.

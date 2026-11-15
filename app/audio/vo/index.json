@@ -1,0 +1,741 @@
+{
+ "made_with": "ElevenLabs text to speech (synthetic voices), tools/make_vo.py",
+ "clips": {
+  "intro:0": {
+   "f": "intro_0.mp3",
+   "t": "Radio check. I have you right outside the crew rover at Altadena.",
+   "who": "rover",
+   "voice": "enzbGixeo55iqn1QxbbC",
+   "model": "eleven_multilingual_v2",
+   "settings": {
+    "stability": 0.75,
+    "similarity_boost": 0.75,
+    "style": 0.0,
+    "use_speaker_boost": true,
+    "speed": 1.06
+   },
+   "d": 3.48,
+   "g": 1.202
+  },
+  "intro:1": {
+   "f": "intro_1.mp3",
+   "t": "This web of ridges is boxwork, where groundwater once hardened the rock through cracks.",
+   "who": "rover",
+   "voice": "enzbGixeo55iqn1QxbbC",
+   "model": "eleven_multilingual_v2",
+   "settings": {
+    "stability": 0.75,
+    "similarity_boost": 0.75,
+    "style": 0.0,
+    "use_speaker_boost": true,
+    "speed": 1.06
+   },
+   "d": 4.97,
+   "g": 1.202
+  },
+  "intro:2": {
+   "f": "intro_2.mp3",
+   "t": "Six stops today, to collect a rock sample from the ridges and from the hollows worn away between them.",
+   "who": "rover",
+   "voice": "enzbGixeo55iqn1QxbbC",
+   "model": "eleven_multilingual_v2",
+   "settings": {
+    "stability": 0.75,
+    "similarity_boost": 0.75,
+    "style": 0.0,
+    "use_speaker_boost": true,
+    "speed": 1.06
+   },
+   "d": 5.39,
+   "g": 1.202
+  },
+  "intro:3": {
+   "f": "intro_3.mp3",
+   "t": "Follow the pale line. It keeps you off steep ground.",
+   "who": "rover",
+   "voice": "enzbGixeo55iqn1QxbbC",
+   "model": "eleven_multilingual_v2",
+   "settings": {
+    "stability": 0.75,
+    "similarity_boost": 0.75,
+    "style": 0.0,
+    "use_speaker_boost": true,
+    "speed": 1.06
+   },
+   "d": 3.02,
+   "g": 1.202
+  },
+  "pace:0": {
+   "f": "pace_0.mp3",
+   "t": "Planned pace is two kilometres an hour. Moving two hundred and nine kilos inside the suit's cooling limit.",
+   "who": "rover",
+   "voice": "enzbGixeo55iqn1QxbbC",
+   "model": "eleven_multilingual_v2",
+   "settings": {
+    "stability": 0.75,
+    "similarity_boost": 0.75,
+    "style": 0.0,
+    "use_speaker_boost": true,
+    "speed": 1.06
+   },
+   "d": 5.85,
+   "g": 1.202
+  },
+  "leg1:0": {
+   "f": "leg1_0.mp3",
+   "t": "Curiosity took 267 Mars days to work these six spots. We have 4 hours.",
+   "who": "rover",
+   "voice": "enzbGixeo55iqn1QxbbC",
+   "model": "eleven_multilingual_v2",
+   "settings": {
+    "stability": 0.75,
+    "similarity_boost": 0.75,
+    "style": 0.0,
+    "use_speaker_boost": true,
+    "speed": 1.06
+   },
+   "d": 5.25,
+   "g": 1.202
+  },
+  "leg1:1": {
+   "f": "leg1_1.mp3",
+   "t": "You are about to walk behind a ridge. Radio will drop.",
+   "who": "rover",
+   "voice": "enzbGixeo55iqn1QxbbC",
+   "model": "eleven_multilingual_v2",
+   "settings": {
+    "stability": 0.75,
+    "similarity_boost": 0.75,
+    "style": 0.0,
+    "use_speaker_boost": true,
+    "speed": 1.06
+   },
+   "d": 3.07,
+   "g": 1.202
+  },
+  "radio_lost:0": {
+   "f": "radio_lost_0.mp3",
+   "t": "See you on the other...",
+   "who": "rover",
+   "voice": "enzbGixeo55iqn1QxbbC",
+   "model": "eleven_multilingual_v2",
+   "settings": {
+    "stability": 0.75,
+    "similarity_boost": 0.75,
+    "style": 0.0,
+    "use_speaker_boost": true,
+    "speed": 1.06
+   },
+   "d": 1.21,
+   "g": 1.202
+  },
+  "radio_lost:1": {
+   "f": "radio_lost_1.mp3",
+   "t": "Line of sight to crew rover blocked by terrain. Planned gap. Suit audio active.",
+   "who": "suit",
+   "voice": "pHqSZYhjNK8nDCPRglTL",
+   "model": "eleven_v4",
+   "settings": null,
+   "d": 5.52,
+   "g": 1.496
+  },
+  "site1_arrive:0": {
+   "f": "site1_arrive_0.mp3",
+   "t": "Stop one, Volcán Peña Blanca. This ridge wall exposes three layers.",
+   "who": "suit",
+   "voice": "pHqSZYhjNK8nDCPRglTL",
+   "model": "eleven_v4",
+   "settings": null,
+   "d": 5.68,
+   "g": 1.496
+  },
+  "site1_arrive:1": {
+   "f": "site1_arrive_1.mp3",
+   "t": "Take one rock sample across all three layers, bottom to top.",
+   "who": "suit",
+   "voice": "pHqSZYhjNK8nDCPRglTL",
+   "model": "eleven_v4",
+   "settings": null,
+   "d": 4.24,
+   "g": 1.496
+  },
+  "site1_done:0": {
+   "f": "site1_done_0.mp3",
+   "t": "Rock sample logged. 35 minutes elapsed. Proceed to Salar de Agua Amara.",
+   "who": "suit",
+   "voice": "pHqSZYhjNK8nDCPRglTL",
+   "model": "eleven_v4",
+   "settings": null,
+   "tts": "Rock sample logged. 35 minutes elapsed. Proceed to Salar de Agua Amahra.",
+   "d": 5.52,
+   "g": 1.496
+  },
+  "radio_back:0": {
+   "f": "radio_back_0.mp3",
+   "t": "And I have you back. Clear line of sight to the crew rover again.",
+   "who": "rover",
+   "voice": "enzbGixeo55iqn1QxbbC",
+   "model": "eleven_multilingual_v2",
+   "settings": {
+    "stability": 0.75,
+    "similarity_boost": 0.75,
+    "style": 0.0,
+    "use_speaker_boost": true,
+    "speed": 1.06
+   },
+   "d": 3.44,
+   "g": 1.202
+  },
+  "site2_arrive:0": {
+   "f": "site2_arrive_0.mp3",
+   "t": "Look at those delicate branching shapes in the rock. Groundwater work again.",
+   "who": "rover",
+   "voice": "enzbGixeo55iqn1QxbbC",
+   "model": "eleven_multilingual_v2",
+   "settings": {
+    "stability": 0.75,
+    "similarity_boost": 0.75,
+    "style": 0.0,
+    "use_speaker_boost": true,
+    "speed": 1.06
+   },
+   "d": 4.13,
+   "g": 1.202
+  },
+  "site2_arrive:1": {
+   "f": "site2_arrive_1.mp3",
+   "t": "Photograph them in place, then drill beside them, not through them.",
+   "who": "rover",
+   "voice": "enzbGixeo55iqn1QxbbC",
+   "model": "eleven_multilingual_v2",
+   "settings": {
+    "stability": 0.75,
+    "similarity_boost": 0.75,
+    "style": 0.0,
+    "use_speaker_boost": true,
+    "speed": 1.06
+   },
+   "d": 3.81,
+   "g": 1.202
+  },
+  "site2_done:0": {
+   "f": "site2_done_0.mp3",
+   "t": "Core is in. That took 30 minutes.",
+   "who": "rover",
+   "voice": "enzbGixeo55iqn1QxbbC",
+   "model": "eleven_multilingual_v2",
+   "settings": {
+    "stability": 0.75,
+    "similarity_boost": 0.75,
+    "style": 0.0,
+    "use_speaker_boost": true,
+    "speed": 1.06
+   },
+   "d": 2.18,
+   "g": 1.202
+  },
+  "leg3:0": {
+   "f": "leg3_0.mp3",
+   "t": "Short walk to the Río Frío wall. Just eighty-one metres.",
+   "who": "rover",
+   "voice": "enzbGixeo55iqn1QxbbC",
+   "model": "eleven_multilingual_v2",
+   "settings": {
+    "stability": 0.75,
+    "similarity_boost": 0.75,
+    "style": 0.0,
+    "use_speaker_boost": true,
+    "speed": 1.06
+   },
+   "d": 3.39,
+   "g": 1.202
+  },
+  "site3_arrive:0": {
+   "f": "site3_arrive_0.mp3",
+   "t": "This ridge wall has pea-sized round lumps, and a mineral band filling a crack.",
+   "who": "rover",
+   "voice": "enzbGixeo55iqn1QxbbC",
+   "model": "eleven_multilingual_v2",
+   "settings": {
+    "stability": 0.75,
+    "similarity_boost": 0.75,
+    "style": 0.0,
+    "use_speaker_boost": true,
+    "speed": 1.06
+   },
+   "d": 4.5,
+   "g": 1.202
+  },
+  "site3_arrive:1": {
+   "f": "site3_arrive_1.mp3",
+   "t": "Take a rock sample with both the nodules and the vein, so we can compare their chemistry.",
+   "who": "rover",
+   "voice": "enzbGixeo55iqn1QxbbC",
+   "model": "eleven_multilingual_v2",
+   "settings": {
+    "stability": 0.75,
+    "similarity_boost": 0.75,
+    "style": 0.0,
+    "use_speaker_boost": true,
+    "speed": 1.06
+   },
+   "d": 4.74,
+   "g": 1.202
+  },
+  "site3_done:0": {
+   "f": "site3_done_0.mp3",
+   "t": "Three down, three to go. Head for Monte Grande hollow.",
+   "who": "rover",
+   "voice": "enzbGixeo55iqn1QxbbC",
+   "model": "eleven_multilingual_v2",
+   "settings": {
+    "stability": 0.75,
+    "similarity_boost": 0.75,
+    "style": 0.0,
+    "use_speaker_boost": true,
+    "speed": 1.06
+   },
+   "d": 3.3,
+   "g": 1.202
+  },
+  "leg4:0": {
+   "f": "leg4_0.mp3",
+   "t": "Next stop is down in a hollow between the ridges.",
+   "who": "rover",
+   "voice": "enzbGixeo55iqn1QxbbC",
+   "model": "eleven_multilingual_v2",
+   "settings": {
+    "stability": 0.75,
+    "similarity_boost": 0.75,
+    "style": 0.0,
+    "use_speaker_boost": true,
+    "speed": 1.06
+   },
+   "d": 2.74,
+   "g": 1.202
+  },
+  "drill_alarm:0": {
+   "f": "drill_alarm_0.mp3",
+   "t": "This is a drill. Warning. Solar storm detected. Surface radiation rising.",
+   "who": "suit",
+   "voice": "pHqSZYhjNK8nDCPRglTL",
+   "model": "eleven_v4",
+   "settings": null,
+   "d": 5.84,
+   "g": 1.496
+  },
+  "drill_alarm:1": {
+   "f": "drill_alarm_1.mp3",
+   "t": "Return to crew rover shelter immediately.",
+   "who": "suit",
+   "voice": "pHqSZYhjNK8nDCPRglTL",
+   "model": "eleven_v4",
+   "settings": null,
+   "d": 2.72,
+   "g": 1.496
+  },
+  "drill_explain:0": {
+   "f": "drill_explain_0.mp3",
+   "t": "A solar storm is a burst of fast particles from the Sun. Mars has thin air and no magnetic field to block them.",
+   "who": "rover",
+   "voice": "enzbGixeo55iqn1QxbbC",
+   "model": "eleven_multilingual_v2",
+   "settings": {
+    "stability": 0.75,
+    "similarity_boost": 0.75,
+    "style": 0.0,
+    "use_speaker_boost": true,
+    "speed": 1.06
+   },
+   "d": 6.5,
+   "g": 1.202
+  },
+  "drill_explain:1": {
+   "f": "drill_explain_1.mp3",
+   "t": "When one hit in twenty seventeen, Curiosity measured ground radiation here doubling. Outside, you only have your suit, so the crew rover is your shelter.",
+   "who": "rover",
+   "voice": "enzbGixeo55iqn1QxbbC",
+   "model": "eleven_multilingual_v2",
+   "settings": {
+    "stability": 0.75,
+    "similarity_boost": 0.75,
+    "style": 0.0,
+    "use_speaker_boost": true,
+    "speed": 1.06
+   },
+   "d": 9.2,
+   "g": 1.202
+  },
+  "drill_explain:2": {
+   "f": "drill_explain_2.mp3",
+   "t": "Red line marks fastest safe walk back. 120 metres shorter than the way out. 16 minutes from here.",
+   "who": "suit",
+   "voice": "pHqSZYhjNK8nDCPRglTL",
+   "model": "eleven_v4",
+   "settings": null,
+   "d": 7.28,
+   "g": 1.496
+  },
+  "drill_explain:3": {
+   "f": "drill_explain_3.mp3",
+   "t": "Hold to confirm escape route.",
+   "who": "suit",
+   "voice": "pHqSZYhjNK8nDCPRglTL",
+   "model": "eleven_v4",
+   "settings": null,
+   "d": 2.08,
+   "g": 1.496
+  },
+  "drill_explain_plain:0": {
+   "f": "drill_explain_plain_0.mp3",
+   "t": "A solar storm is a burst of fast particles from the Sun. Mars has thin air and no magnetic field to block them.",
+   "who": "rover",
+   "voice": "enzbGixeo55iqn1QxbbC",
+   "model": "eleven_multilingual_v2",
+   "settings": {
+    "stability": 0.75,
+    "similarity_boost": 0.75,
+    "style": 0.0,
+    "use_speaker_boost": true,
+    "speed": 1.06
+   },
+   "d": 6.69,
+   "g": 1.202
+  },
+  "drill_explain_plain:1": {
+   "f": "drill_explain_plain_1.mp3",
+   "t": "When one hit in twenty seventeen, Curiosity measured ground radiation here doubling. Outside, you only have your suit, so the crew rover is your shelter.",
+   "who": "rover",
+   "voice": "enzbGixeo55iqn1QxbbC",
+   "model": "eleven_multilingual_v2",
+   "settings": {
+    "stability": 0.75,
+    "similarity_boost": 0.75,
+    "style": 0.0,
+    "use_speaker_boost": true,
+    "speed": 1.06
+   },
+   "d": 9.01,
+   "g": 1.202
+  },
+  "drill_explain_plain:2": {
+   "f": "drill_explain_plain_2.mp3",
+   "t": "Red line marks fastest safe walk back. 16 minutes from here.",
+   "who": "suit",
+   "voice": "pHqSZYhjNK8nDCPRglTL",
+   "model": "eleven_v4",
+   "settings": null,
+   "d": 4.48,
+   "g": 1.496
+  },
+  "drill_explain_plain:3": {
+   "f": "drill_explain_plain_3.mp3",
+   "t": "Hold to confirm escape route.",
+   "who": "suit",
+   "voice": "pHqSZYhjNK8nDCPRglTL",
+   "model": "eleven_v4",
+   "settings": null,
+   "d": 2.0,
+   "g": 1.496
+  },
+  "drill_clear:0": {
+   "f": "drill_clear_0.mp3",
+   "t": "Drill complete. Escape route confirmed. Resuming walk.",
+   "who": "suit",
+   "voice": "pHqSZYhjNK8nDCPRglTL",
+   "model": "eleven_v4",
+   "settings": null,
+   "d": 3.92,
+   "g": 1.496
+  },
+  "drill_clear:1": {
+   "f": "drill_clear_1.mp3",
+   "t": "Good check. This route keeps you within a 17 minute walk of me at all times.",
+   "who": "rover",
+   "voice": "enzbGixeo55iqn1QxbbC",
+   "model": "eleven_multilingual_v2",
+   "settings": {
+    "stability": 0.75,
+    "similarity_boost": 0.75,
+    "style": 0.0,
+    "use_speaker_boost": true,
+    "speed": 1.06
+   },
+   "d": 4.18,
+   "g": 1.202
+  },
+  "site4_arrive:0": {
+   "f": "site4_arrive_0.mp3",
+   "t": "Monte Grande hollow. Bare bedrock on the floor, broken into polygon blocks.",
+   "who": "rover",
+   "voice": "enzbGixeo55iqn1QxbbC",
+   "model": "eleven_multilingual_v2",
+   "settings": {
+    "stability": 0.75,
+    "similarity_boost": 0.75,
+    "style": 0.0,
+    "use_speaker_boost": true,
+    "speed": 1.06
+   },
+   "d": 4.55,
+   "g": 1.202
+  },
+  "site4_arrive:1": {
+   "f": "site4_arrive_1.mp3",
+   "t": "Take a rock sample from the hollow floor here. That gives us the first half of our comparison.",
+   "who": "rover",
+   "voice": "enzbGixeo55iqn1QxbbC",
+   "model": "eleven_multilingual_v2",
+   "settings": {
+    "stability": 0.75,
+    "similarity_boost": 0.75,
+    "style": 0.0,
+    "use_speaker_boost": true,
+    "speed": 1.06
+   },
+   "d": 4.92,
+   "g": 1.202
+  },
+  "site4_done:0": {
+   "f": "site4_done_0.mp3",
+   "t": "Hollow rock sample bagged. Now let us climb the ridge right next to it.",
+   "who": "rover",
+   "voice": "enzbGixeo55iqn1QxbbC",
+   "model": "eleven_multilingual_v2",
+   "settings": {
+    "stability": 0.75,
+    "similarity_boost": 0.75,
+    "style": 0.0,
+    "use_speaker_boost": true,
+    "speed": 1.06
+   },
+   "d": 3.72,
+   "g": 1.202
+  },
+  "leg5:0": {
+   "f": "leg5_0.mp3",
+   "t": "Fifty-five metres up onto Nevado Sajama ridge.",
+   "who": "rover",
+   "voice": "enzbGixeo55iqn1QxbbC",
+   "model": "eleven_multilingual_v2",
+   "settings": {
+    "stability": 0.75,
+    "similarity_boost": 0.75,
+    "style": 0.0,
+    "use_speaker_boost": true,
+    "speed": 1.06
+   },
+   "tts": "Fifty-five metres up onto Nevado Sahama ridge.",
+   "d": 2.93,
+   "g": 1.202
+  },
+  "site5_arrive:0": {
+   "f": "site5_arrive_0.mp3",
+   "t": "Curiosity found clay in this ridge, and also drilled the hollow ten metres north.",
+   "who": "rover",
+   "voice": "enzbGixeo55iqn1QxbbC",
+   "model": "eleven_multilingual_v2",
+   "settings": {
+    "stability": 0.75,
+    "similarity_boost": 0.75,
+    "style": 0.0,
+    "use_speaker_boost": true,
+    "speed": 1.06
+   },
+   "d": 4.69,
+   "g": 1.202
+  },
+  "site5_arrive:1": {
+   "f": "site5_arrive_1.mp3",
+   "t": "Take the matching rock sample right on top of the ridge.",
+   "who": "rover",
+   "voice": "enzbGixeo55iqn1QxbbC",
+   "model": "eleven_multilingual_v2",
+   "settings": {
+    "stability": 0.75,
+    "similarity_boost": 0.75,
+    "style": 0.0,
+    "use_speaker_boost": true,
+    "speed": 1.06
+   },
+   "d": 2.93,
+   "g": 1.202
+  },
+  "site5_done:0": {
+   "f": "site5_done_0.mp3",
+   "t": "Now we hold both halves: the worn hollow and the cemented ridge.",
+   "who": "rover",
+   "voice": "enzbGixeo55iqn1QxbbC",
+   "model": "eleven_multilingual_v2",
+   "settings": {
+    "stability": 0.75,
+    "similarity_boost": 0.75,
+    "style": 0.0,
+    "use_speaker_boost": true,
+    "speed": 1.06
+   },
+   "d": 4.04,
+   "g": 1.202
+  },
+  "site5_done:1": {
+   "f": "site5_done_1.mp3",
+   "t": "One last stop at the eastern edge.",
+   "who": "rover",
+   "voice": "enzbGixeo55iqn1QxbbC",
+   "model": "eleven_multilingual_v2",
+   "settings": {
+    "stability": 0.75,
+    "similarity_boost": 0.75,
+    "style": 0.0,
+    "use_speaker_boost": true,
+    "speed": 1.06
+   },
+   "d": 2.0,
+   "g": 1.202
+  },
+  "leg6:0": {
+   "f": "leg6_0.mp3",
+   "t": "A hundred and twelve metres to Timboy Chaco.",
+   "who": "rover",
+   "voice": "enzbGixeo55iqn1QxbbC",
+   "model": "eleven_multilingual_v2",
+   "settings": {
+    "stability": 0.75,
+    "similarity_boost": 0.75,
+    "style": 0.0,
+    "use_speaker_boost": true,
+    "speed": 1.06
+   },
+   "d": 2.55,
+   "g": 1.202
+  },
+  "site6_arrive:0": {
+   "f": "site6_arrive_0.mp3",
+   "t": "Timboy Chaco, eastern edge of the boxwork. Vertical rock covered in pits.",
+   "who": "rover",
+   "voice": "enzbGixeo55iqn1QxbbC",
+   "model": "eleven_multilingual_v2",
+   "settings": {
+    "stability": 0.75,
+    "similarity_boost": 0.75,
+    "style": 0.0,
+    "use_speaker_boost": true,
+    "speed": 1.06
+   },
+   "d": 4.83,
+   "g": 1.202
+  },
+  "site6_arrive:1": {
+   "f": "site6_arrive_1.mp3",
+   "t": "Grab the final rock sample and we are done.",
+   "who": "rover",
+   "voice": "enzbGixeo55iqn1QxbbC",
+   "model": "eleven_multilingual_v2",
+   "settings": {
+    "stability": 0.75,
+    "similarity_boost": 0.75,
+    "style": 0.0,
+    "use_speaker_boost": true,
+    "speed": 1.06
+   },
+   "d": 2.23,
+   "g": 1.202
+  },
+  "site6_done:0": {
+   "f": "site6_done_0.mp3",
+   "t": "All six in the bag. Time to walk home.",
+   "who": "rover",
+   "voice": "enzbGixeo55iqn1QxbbC",
+   "model": "eleven_multilingual_v2",
+   "settings": {
+    "stability": 0.75,
+    "similarity_boost": 0.75,
+    "style": 0.0,
+    "use_speaker_boost": true,
+    "speed": 1.06
+   },
+   "d": 2.23,
+   "g": 1.202
+  },
+  "home:0": {
+   "f": "home_0.mp3",
+   "t": "Five hundred metres back to Altadena. The return leg was built in from the start.",
+   "who": "rover",
+   "voice": "enzbGixeo55iqn1QxbbC",
+   "model": "eleven_multilingual_v2",
+   "settings": {
+    "stability": 0.75,
+    "similarity_boost": 0.75,
+    "style": 0.0,
+    "use_speaker_boost": true,
+    "speed": 1.06
+   },
+   "d": 4.41,
+   "g": 1.202
+  },
+  "home:1": {
+   "f": "home_1.mp3",
+   "t": "Curiosity was the only thing that ever touched these rocks before today.",
+   "who": "rover",
+   "voice": "enzbGixeo55iqn1QxbbC",
+   "model": "eleven_multilingual_v2",
+   "settings": {
+    "stability": 0.75,
+    "similarity_boost": 0.75,
+    "style": 0.0,
+    "use_speaker_boost": true,
+    "speed": 1.06
+   },
+   "d": 3.85,
+   "g": 1.202
+  },
+  "home:2": {
+   "f": "home_2.mp3",
+   "t": "I have you in sight. Come on in.",
+   "who": "rover",
+   "voice": "enzbGixeo55iqn1QxbbC",
+   "model": "eleven_multilingual_v2",
+   "settings": {
+    "stability": 0.75,
+    "similarity_boost": 0.75,
+    "style": 0.0,
+    "use_speaker_boost": true,
+    "speed": 1.06
+   },
+   "d": 1.76,
+   "g": 1.202
+  },
+  "arrive:0": {
+   "f": "arrive_0.mp3",
+   "t": "Welcome back. About 4 hours outside, with 6 hours of daylight still left.",
+   "who": "rover",
+   "voice": "enzbGixeo55iqn1QxbbC",
+   "model": "eleven_multilingual_v2",
+   "settings": {
+    "stability": 0.75,
+    "similarity_boost": 0.75,
+    "style": 0.0,
+    "use_speaker_boost": true,
+    "speed": 1.06
+   },
+   "d": 5.11,
+   "g": 1.202
+  },
+  "end_say:0": {
+   "f": "end_say_0.mp3",
+   "t": "Six rock samples, one point four kilometres, and plenty of daylight in the margin.",
+   "who": "rover",
+   "voice": "enzbGixeo55iqn1QxbbC",
+   "model": "eleven_multilingual_v2",
+   "settings": {
+    "stability": 0.75,
+    "similarity_boost": 0.75,
+    "style": 0.0,
+    "use_speaker_boost": true,
+    "speed": 1.06
+   },
+   "d": 4.23,
+   "g": 1.202
+  }
+ }
+}
