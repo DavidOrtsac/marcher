@@ -6,7 +6,7 @@ Plan a walk on Mars at Curiosity's boxwork on Mount Sharp, Gale crater. Then wal
 
 NASA Space Apps Challenge 2026 · Interplanetary Survival Guide: Martian Map · Team Transcendiant Labs (David Castro)
 
-All of the software in this repository is new. It was written during the hackathon, November 14 to 15, 2026. The third-party parts (three.js, the fonts, NASA's 3D models and the NASA data) are listed in `NOTICE`.
+The third-party parts (three.js, the fonts, NASA's 3D models and the NASA data) are listed in `NOTICE`.
 
 **Live app:** https://storage.googleapis.com/transcendiant-marcher/index.html
 
